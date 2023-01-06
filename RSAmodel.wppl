@@ -1,0 +1,131 @@
+var alpha = 10
+var costWeight = 1
+var cost = {is: 1, looks: 2, feels: 2, null: 1}
+
+var states = [["is","looks","feels"], ["is","looks","notFeels"], 
+              ["is","notLooks","feels"], ["is","notLooks","notFeels"], 
+              ["notIs","looks","feels"],["notIs","looks","notFeels"],
+              ["notIs","notLooks","feels"], ["notIs","notLooks","notFeels"]]
+
+var statePrior = function() {
+  return categorical({ps: [3, 2, 2, 1, 1, 2, 2, 3], vs: states})
+}
+
+var utterances = ["is_bright", "looks_bright", "feels_bright",
+                  "is_crowded", "looks_crowded", "feels_crowded",
+                  "is_hot", "looks_hot", "feels_hot",
+                  "is_humid", "looks_humid", "feels_humid", "null"]
+
+var utterancePrior = function() {
+  return uniformDraw(utterances)
+}
+
+var meaning = function(utt,state){
+  var splitWords = utt.split('_')
+  var copula = splitWords[0]
+  return copula == "null" ? 1 :
+    _.includes(state,copula) ? 1 : 0
+}
+
+//relaxed literal listener
+var literalListener = cache(function(utt) {
+  return Infer({model: function(){
+    var state = statePrior()
+    factor(meaning(utt,state))
+    var actualState = state[0]
+    return actualState
+  }})
+})
+
+var evidTypes = ["looks", "feels", "null"]
+var modality_vals = function(property){
+  if (property == "bright") {
+    return {looks: 5, feels: 0.2, null: 0}
+  } else if (property == "crowded") {
+    return {looks: 4.6, feels: 2.3, null: 0}
+  } else if (property == "hot") {
+    return {looks: 3.3, feels: 4.9, null: 0}
+  } else if (property == "humid") {
+    return {looks: 1.7, feels: 3.3, null: 0}
+  }
+}
+
+var percConditions = ["good", "bad"]
+var condition_vals = {good: 0.99, bad: 0.01}
+
+//exponential transformation version
+var evidStr = function(evidTyp,property,percCond){
+  var relevance = modality_vals(property)[evidTyp]
+  var reliability = condition_vals[percCond]
+  return Math.exp(relevance-5)*reliability
+}
+
+var belief = cache(function(evidTyp,property,percCond) {
+  return Infer({model: function(){
+    var state = uniformDraw(states)
+    var observed = flip(0.5 + evidStr(evidTyp,property,percCond)/2)
+    var actualState = observed ? "is" : "notIs"
+    return actualState
+  }})
+})
+
+var get_EUs = function(evidTyp,property,percCond,utterance){
+  var EUs = sum(map(function(s) {
+    var eu_at_state = Math.exp(belief(evidTyp, property, percCond).score(s)) * 
+        literalListener(utterance).score(s)
+    return _.isNaN(eu_at_state) ? 0 : eu_at_state // convention here: 0*-Inf=0
+  },["is","notIs"]))
+  return EUs 
+}
+
+var pragmaticSpeaker = cache(function(evidTyp,property,percCond){
+  return Infer({model: function(){
+    var utterance = utterancePrior()
+    var splitWords = utterance.split('_')
+    var uttCost = cost[splitWords[0]]
+ //this condition() below should be in the meaning function, not here
+ //   condition(utterance == "null" ||
+ //              (_.includes(utterance,property) && 
+ //              (_.includes(utterance,evidTyp) || _.includes(utterance,"is"))
+ //              )
+ //            )
+    factor(alpha * get_EUs(evidTyp,property,percCond,utterance) - costWeight * uttCost)
+    return utterance
+  }})
+})
+
+var pragmaticListener = cache(function(utt){
+  return Infer({model: function(){
+    var state = statePrior()
+    var actualState = state[0]
+    var splitWords = utt.split('_')
+ //the following line should be a conditional to accommodate null utterances
+ //   var property = splitWords[1]
+    var evidTyp = uniformDraw(evidTypes)
+    var percCond = uniformDraw(percConditions)
+    factor(belief(evidTyp,property,percCond).score(actualState))
+    observe(pragmaticSpeaker(evidTyp,property,percCond),utt)
+    return {actualState, percCond, evidTyp}
+  }})
+})
+
+viz(pragmaticListener("null"))
+
+display("Pragmatic listener:")
+display("Inferences about actual state")
+display(" hearing 'It's bright'")
+viz.table(marginalize(pragmaticListener("is_bright"),"actualState"))
+display(" hearing 'It looks bright'")
+viz.table(marginalize(pragmaticListener("looks_bright"),"actualState"))
+display(" hearing 'It looks crowded'")
+viz.table(marginalize(pragmaticListener("looks_crowded"),"actualState"))
+display(" hearing nothing")
+viz.table(marginalize(pragmaticListener("null"),"actualState"))
+
+display("Inferences about perceptual conditions")
+display(" hearing 'It looks bright'")
+viz.table(marginalize(pragmaticListener("looks_bright"),"percCond"))
+display(" hearing 'It looks crowded'")
+viz.table(marginalize(pragmaticListener("looks_crowded"),"percCond"))
+display("Inferences about evidence type hearing 'It's hot'")
+viz.table(marginalize(pragmaticListener("is_hot"),"evidTyp"))
