@@ -1,0 +1,801 @@
+﻿Participant,ProlificID,PropertyNum,Property,Object,Stimulus,Type,RandomNum,List,Response
+1,6171fb48ed4824ddf0dafbc7,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,30
+1,6171fb48ed4824ddf0dafbc7,15,long,gown,I think Jenny's gown is long,filler,2,1,71
+1,6171fb48ed4824ddf0dafbc7,20,damp,top,Samantha's top might be damp,filler,3,1,61
+1,6171fb48ed4824ddf0dafbc7,10,oily,purse,Natalie's purse is oily,bare,4,1,93
+1,6171fb48ed4824ddf0dafbc7,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,77
+1,6171fb48ed4824ddf0dafbc7,16,tight,belt,Raplh's belt might be tight,filler,6,1,66
+1,6171fb48ed4824ddf0dafbc7,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,71
+1,6171fb48ed4824ddf0dafbc7,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,60
+1,6171fb48ed4824ddf0dafbc7,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+1,6171fb48ed4824ddf0dafbc7,9,clean,shoes,Michael's shoes look clean,looks,10,1,81
+1,6171fb48ed4824ddf0dafbc7,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+1,6171fb48ed4824ddf0dafbc7,6,loose,pants,Steve's pants look loose,looks,12,1,71
+1,6171fb48ed4824ddf0dafbc7,5,short,skirt,Zoe's skirt is short,bare,13,1,100
+1,6171fb48ed4824ddf0dafbc7,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,72
+1,6171fb48ed4824ddf0dafbc7,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,72
+1,6171fb48ed4824ddf0dafbc7,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+1,6171fb48ed4824ddf0dafbc7,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,61
+1,6171fb48ed4824ddf0dafbc7,18,silky,tie,David's tie might be silky,filler,18,1,51
+1,6171fb48ed4824ddf0dafbc7,12,green,vest,I think Tom's vest is green,filler,19,1,77
+1,6171fb48ed4824ddf0dafbc7,2,purple,coat,Holly's coat looks purple,looks,20,1,60
+2,611c566a4412b71fd8fb5e20,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,54
+2,611c566a4412b71fd8fb5e20,15,long,gown,I think Jenny's gown is long,filler,2,1,71
+2,611c566a4412b71fd8fb5e20,20,damp,top,Samantha's top might be damp,filler,3,1,61
+2,611c566a4412b71fd8fb5e20,10,oily,purse,Natalie's purse is oily,bare,4,1,100
+2,611c566a4412b71fd8fb5e20,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,88
+2,611c566a4412b71fd8fb5e20,16,tight,belt,Raplh's belt might be tight,filler,6,1,59
+2,611c566a4412b71fd8fb5e20,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,85
+2,611c566a4412b71fd8fb5e20,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,55
+2,611c566a4412b71fd8fb5e20,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+2,611c566a4412b71fd8fb5e20,9,clean,shoes,Michael's shoes look clean,looks,10,1,95
+2,611c566a4412b71fd8fb5e20,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+2,611c566a4412b71fd8fb5e20,6,loose,pants,Steve's pants look loose,looks,12,1,92
+2,611c566a4412b71fd8fb5e20,5,short,skirt,Zoe's skirt is short,bare,13,1,100
+2,611c566a4412b71fd8fb5e20,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,83
+2,611c566a4412b71fd8fb5e20,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,87
+2,611c566a4412b71fd8fb5e20,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+2,611c566a4412b71fd8fb5e20,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,71
+2,611c566a4412b71fd8fb5e20,18,silky,tie,David's tie might be silky,filler,18,1,59
+2,611c566a4412b71fd8fb5e20,12,green,vest,I think Tom's vest is green,filler,19,1,69
+2,611c566a4412b71fd8fb5e20,2,purple,coat,Holly's coat looks purple,looks,20,1,96
+3,5edf222d1b8bce1bdd61cd2d,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,11
+3,5edf222d1b8bce1bdd61cd2d,15,long,gown,I think Jenny's gown is long,filler,2,1,9
+3,5edf222d1b8bce1bdd61cd2d,20,damp,top,Samantha's top might be damp,filler,3,1,20
+3,5edf222d1b8bce1bdd61cd2d,10,oily,purse,Natalie's purse is oily,bare,4,1,80
+3,5edf222d1b8bce1bdd61cd2d,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,73
+3,5edf222d1b8bce1bdd61cd2d,16,tight,belt,Raplh's belt might be tight,filler,6,1,34
+3,5edf222d1b8bce1bdd61cd2d,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,27
+3,5edf222d1b8bce1bdd61cd2d,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,30
+3,5edf222d1b8bce1bdd61cd2d,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,87
+3,5edf222d1b8bce1bdd61cd2d,9,clean,shoes,Michael's shoes look clean,looks,10,1,63
+3,5edf222d1b8bce1bdd61cd2d,1,beige,suit,Elliot's suit is beige,bare,11,1,95
+3,5edf222d1b8bce1bdd61cd2d,6,loose,pants,Steve's pants look loose,looks,12,1,74
+3,5edf222d1b8bce1bdd61cd2d,5,short,skirt,Zoe's skirt is short,bare,13,1,97
+3,5edf222d1b8bce1bdd61cd2d,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,35
+3,5edf222d1b8bce1bdd61cd2d,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,75
+3,5edf222d1b8bce1bdd61cd2d,4,shiny,dress,Kate's dress is shiny,bare,16,1,81
+3,5edf222d1b8bce1bdd61cd2d,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,62
+3,5edf222d1b8bce1bdd61cd2d,18,silky,tie,David's tie might be silky,filler,18,1,36
+3,5edf222d1b8bce1bdd61cd2d,12,green,vest,I think Tom's vest is green,filler,19,1,64
+3,5edf222d1b8bce1bdd61cd2d,2,purple,coat,Holly's coat looks purple,looks,20,1,84
+4,5bd0d9bf25db7b0001786a5b,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,73
+4,5bd0d9bf25db7b0001786a5b,15,long,gown,I think Jenny's gown is long,filler,2,1,92
+4,5bd0d9bf25db7b0001786a5b,20,damp,top,Samantha's top might be damp,filler,3,1,51
+4,5bd0d9bf25db7b0001786a5b,10,oily,purse,Natalie's purse is oily,bare,4,1,95
+4,5bd0d9bf25db7b0001786a5b,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,83
+4,5bd0d9bf25db7b0001786a5b,16,tight,belt,Raplh's belt might be tight,filler,6,1,55
+4,5bd0d9bf25db7b0001786a5b,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,66
+4,5bd0d9bf25db7b0001786a5b,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,50
+4,5bd0d9bf25db7b0001786a5b,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,98
+4,5bd0d9bf25db7b0001786a5b,9,clean,shoes,Michael's shoes look clean,looks,10,1,77
+4,5bd0d9bf25db7b0001786a5b,1,beige,suit,Elliot's suit is beige,bare,11,1,97
+4,5bd0d9bf25db7b0001786a5b,6,loose,pants,Steve's pants look loose,looks,12,1,81
+4,5bd0d9bf25db7b0001786a5b,5,short,skirt,Zoe's skirt is short,bare,13,1,96
+4,5bd0d9bf25db7b0001786a5b,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,100
+4,5bd0d9bf25db7b0001786a5b,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,76
+4,5bd0d9bf25db7b0001786a5b,4,shiny,dress,Kate's dress is shiny,bare,16,1,99
+4,5bd0d9bf25db7b0001786a5b,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,67
+4,5bd0d9bf25db7b0001786a5b,18,silky,tie,David's tie might be silky,filler,18,1,62
+4,5bd0d9bf25db7b0001786a5b,12,green,vest,I think Tom's vest is green,filler,19,1,61
+4,5bd0d9bf25db7b0001786a5b,2,purple,coat,Holly's coat looks purple,looks,20,1,92
+5,5d9eb6d611b7c400172aa975,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,22
+5,5d9eb6d611b7c400172aa975,15,long,gown,I think Jenny's gown is long,filler,2,1,84
+5,5d9eb6d611b7c400172aa975,20,damp,top,Samantha's top might be damp,filler,3,1,50
+5,5d9eb6d611b7c400172aa975,10,oily,purse,Natalie's purse is oily,bare,4,1,100
+5,5d9eb6d611b7c400172aa975,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,90
+5,5d9eb6d611b7c400172aa975,16,tight,belt,Raplh's belt might be tight,filler,6,1,94
+5,5d9eb6d611b7c400172aa975,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,68
+5,5d9eb6d611b7c400172aa975,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,50
+5,5d9eb6d611b7c400172aa975,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+5,5d9eb6d611b7c400172aa975,9,clean,shoes,Michael's shoes look clean,looks,10,1,79
+5,5d9eb6d611b7c400172aa975,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+5,5d9eb6d611b7c400172aa975,6,loose,pants,Steve's pants look loose,looks,12,1,87
+5,5d9eb6d611b7c400172aa975,5,short,skirt,Zoe's skirt is short,bare,13,1,88
+5,5d9eb6d611b7c400172aa975,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,89
+5,5d9eb6d611b7c400172aa975,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,100
+5,5d9eb6d611b7c400172aa975,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+5,5d9eb6d611b7c400172aa975,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,77
+5,5d9eb6d611b7c400172aa975,18,silky,tie,David's tie might be silky,filler,18,1,48
+5,5d9eb6d611b7c400172aa975,12,green,vest,I think Tom's vest is green,filler,19,1,85
+5,5d9eb6d611b7c400172aa975,2,purple,coat,Holly's coat looks purple,looks,20,1,88
+6,5d91daf3704e790018f47229,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,50
+6,5d91daf3704e790018f47229,15,long,gown,I think Jenny's gown is long,filler,2,1,77
+6,5d91daf3704e790018f47229,20,damp,top,Samantha's top might be damp,filler,3,1,61
+6,5d91daf3704e790018f47229,10,oily,purse,Natalie's purse is oily,bare,4,1,100
+6,5d91daf3704e790018f47229,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,87
+6,5d91daf3704e790018f47229,16,tight,belt,Raplh's belt might be tight,filler,6,1,73
+6,5d91daf3704e790018f47229,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,75
+6,5d91daf3704e790018f47229,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,52
+6,5d91daf3704e790018f47229,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+6,5d91daf3704e790018f47229,9,clean,shoes,Michael's shoes look clean,looks,10,1,84
+6,5d91daf3704e790018f47229,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+6,5d91daf3704e790018f47229,6,loose,pants,Steve's pants look loose,looks,12,1,79
+6,5d91daf3704e790018f47229,5,short,skirt,Zoe's skirt is short,bare,13,1,100
+6,5d91daf3704e790018f47229,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,91
+6,5d91daf3704e790018f47229,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,87
+6,5d91daf3704e790018f47229,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+6,5d91daf3704e790018f47229,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,67
+6,5d91daf3704e790018f47229,18,silky,tie,David's tie might be silky,filler,18,1,60
+6,5d91daf3704e790018f47229,12,green,vest,I think Tom's vest is green,filler,19,1,67
+6,5d91daf3704e790018f47229,2,purple,coat,Holly's coat looks purple,looks,20,1,81
+7,6009eee6721c400d92d4cd39,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,53
+7,6009eee6721c400d92d4cd39,15,long,gown,I think Jenny's gown is long,filler,2,1,51
+7,6009eee6721c400d92d4cd39,20,damp,top,Samantha's top might be damp,filler,3,1,51
+7,6009eee6721c400d92d4cd39,10,oily,purse,Natalie's purse is oily,bare,4,1,100
+7,6009eee6721c400d92d4cd39,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,87
+7,6009eee6721c400d92d4cd39,16,tight,belt,Raplh's belt might be tight,filler,6,1,60
+7,6009eee6721c400d92d4cd39,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,76
+7,6009eee6721c400d92d4cd39,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,67
+7,6009eee6721c400d92d4cd39,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+7,6009eee6721c400d92d4cd39,9,clean,shoes,Michael's shoes look clean,looks,10,1,76
+7,6009eee6721c400d92d4cd39,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+7,6009eee6721c400d92d4cd39,6,loose,pants,Steve's pants look loose,looks,12,1,80
+7,6009eee6721c400d92d4cd39,5,short,skirt,Zoe's skirt is short,bare,13,1,100
+7,6009eee6721c400d92d4cd39,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,77
+7,6009eee6721c400d92d4cd39,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,80
+7,6009eee6721c400d92d4cd39,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+7,6009eee6721c400d92d4cd39,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,75
+7,6009eee6721c400d92d4cd39,18,silky,tie,David's tie might be silky,filler,18,1,72
+7,6009eee6721c400d92d4cd39,12,green,vest,I think Tom's vest is green,filler,19,1,68
+7,6009eee6721c400d92d4cd39,2,purple,coat,Holly's coat looks purple,looks,20,1,81
+8,599323cdf9db7d00018955da,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,24
+8,599323cdf9db7d00018955da,15,long,gown,I think Jenny's gown is long,filler,2,1,86
+8,599323cdf9db7d00018955da,20,damp,top,Samantha's top might be damp,filler,3,1,63
+8,599323cdf9db7d00018955da,10,oily,purse,Natalie's purse is oily,bare,4,1,100
+8,599323cdf9db7d00018955da,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,91
+8,599323cdf9db7d00018955da,16,tight,belt,Raplh's belt might be tight,filler,6,1,66
+8,599323cdf9db7d00018955da,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,89
+8,599323cdf9db7d00018955da,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,67
+8,599323cdf9db7d00018955da,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+8,599323cdf9db7d00018955da,9,clean,shoes,Michael's shoes look clean,looks,10,1,99
+8,599323cdf9db7d00018955da,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+8,599323cdf9db7d00018955da,6,loose,pants,Steve's pants look loose,looks,12,1,91
+8,599323cdf9db7d00018955da,5,short,skirt,Zoe's skirt is short,bare,13,1,99
+8,599323cdf9db7d00018955da,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,72
+8,599323cdf9db7d00018955da,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,88
+8,599323cdf9db7d00018955da,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+8,599323cdf9db7d00018955da,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,79
+8,599323cdf9db7d00018955da,18,silky,tie,David's tie might be silky,filler,18,1,74
+8,599323cdf9db7d00018955da,12,green,vest,I think Tom's vest is green,filler,19,1,79
+8,599323cdf9db7d00018955da,2,purple,coat,Holly's coat looks purple,looks,20,1,89
+9,610351a3f6c1b632de5d0040,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,0
+9,610351a3f6c1b632de5d0040,15,long,gown,I think Jenny's gown is long,filler,2,1,50
+9,610351a3f6c1b632de5d0040,20,damp,top,Samantha's top might be damp,filler,3,1,71
+9,610351a3f6c1b632de5d0040,10,oily,purse,Natalie's purse is oily,bare,4,1,100
+9,610351a3f6c1b632de5d0040,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,75
+9,610351a3f6c1b632de5d0040,16,tight,belt,Raplh's belt might be tight,filler,6,1,50
+9,610351a3f6c1b632de5d0040,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,39
+9,610351a3f6c1b632de5d0040,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,29
+9,610351a3f6c1b632de5d0040,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+9,610351a3f6c1b632de5d0040,9,clean,shoes,Michael's shoes look clean,looks,10,1,82
+9,610351a3f6c1b632de5d0040,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+9,610351a3f6c1b632de5d0040,6,loose,pants,Steve's pants look loose,looks,12,1,64
+9,610351a3f6c1b632de5d0040,5,short,skirt,Zoe's skirt is short,bare,13,1,100
+9,610351a3f6c1b632de5d0040,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,50
+9,610351a3f6c1b632de5d0040,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,51
+9,610351a3f6c1b632de5d0040,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+9,610351a3f6c1b632de5d0040,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,71
+9,610351a3f6c1b632de5d0040,18,silky,tie,David's tie might be silky,filler,18,1,51
+9,610351a3f6c1b632de5d0040,12,green,vest,I think Tom's vest is green,filler,19,1,45
+9,610351a3f6c1b632de5d0040,2,purple,coat,Holly's coat looks purple,looks,20,1,60
+10,60cf7074e1ea52a0f3450346,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,50
+10,60cf7074e1ea52a0f3450346,15,long,gown,I think Jenny's gown is long,filler,2,1,51
+10,60cf7074e1ea52a0f3450346,20,damp,top,Samantha's top might be damp,filler,3,1,51
+10,60cf7074e1ea52a0f3450346,10,oily,purse,Natalie's purse is oily,bare,4,1,100
+10,60cf7074e1ea52a0f3450346,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,70
+10,60cf7074e1ea52a0f3450346,16,tight,belt,Raplh's belt might be tight,filler,6,1,51
+10,60cf7074e1ea52a0f3450346,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,51
+10,60cf7074e1ea52a0f3450346,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,51
+10,60cf7074e1ea52a0f3450346,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+10,60cf7074e1ea52a0f3450346,9,clean,shoes,Michael's shoes look clean,looks,10,1,81
+10,60cf7074e1ea52a0f3450346,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+10,60cf7074e1ea52a0f3450346,6,loose,pants,Steve's pants look loose,looks,12,1,80
+10,60cf7074e1ea52a0f3450346,5,short,skirt,Zoe's skirt is short,bare,13,1,97
+10,60cf7074e1ea52a0f3450346,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,92
+10,60cf7074e1ea52a0f3450346,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,87
+10,60cf7074e1ea52a0f3450346,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+10,60cf7074e1ea52a0f3450346,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,78
+10,60cf7074e1ea52a0f3450346,18,silky,tie,David's tie might be silky,filler,18,1,50
+10,60cf7074e1ea52a0f3450346,12,green,vest,I think Tom's vest is green,filler,19,1,66
+10,60cf7074e1ea52a0f3450346,2,purple,coat,Holly's coat looks purple,looks,20,1,72
+11,5aeab6e39e185a0001b9e272,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,36
+11,5aeab6e39e185a0001b9e272,15,long,gown,I think Jenny's gown is long,filler,2,1,84
+11,5aeab6e39e185a0001b9e272,20,damp,top,Samantha's top might be damp,filler,3,1,30
+11,5aeab6e39e185a0001b9e272,10,oily,purse,Natalie's purse is oily,bare,4,1,29
+11,5aeab6e39e185a0001b9e272,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,93
+11,5aeab6e39e185a0001b9e272,16,tight,belt,Raplh's belt might be tight,filler,6,1,24
+11,5aeab6e39e185a0001b9e272,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,79
+11,5aeab6e39e185a0001b9e272,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,37
+11,5aeab6e39e185a0001b9e272,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+11,5aeab6e39e185a0001b9e272,9,clean,shoes,Michael's shoes look clean,looks,10,1,100
+11,5aeab6e39e185a0001b9e272,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+11,5aeab6e39e185a0001b9e272,6,loose,pants,Steve's pants look loose,looks,12,1,66
+11,5aeab6e39e185a0001b9e272,5,short,skirt,Zoe's skirt is short,bare,13,1,77
+11,5aeab6e39e185a0001b9e272,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,68
+11,5aeab6e39e185a0001b9e272,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,77
+11,5aeab6e39e185a0001b9e272,4,shiny,dress,Kate's dress is shiny,bare,16,1,74
+11,5aeab6e39e185a0001b9e272,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,80
+11,5aeab6e39e185a0001b9e272,18,silky,tie,David's tie might be silky,filler,18,1,36
+11,5aeab6e39e185a0001b9e272,12,green,vest,I think Tom's vest is green,filler,19,1,63
+11,5aeab6e39e185a0001b9e272,2,purple,coat,Holly's coat looks purple,looks,20,1,77
+12,60fd8e4407065c93f23a5f84,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,31
+12,60fd8e4407065c93f23a5f84,15,long,gown,I think Jenny's gown is long,filler,2,1,34
+12,60fd8e4407065c93f23a5f84,20,damp,top,Samantha's top might be damp,filler,3,1,34
+12,60fd8e4407065c93f23a5f84,10,oily,purse,Natalie's purse is oily,bare,4,1,90
+12,60fd8e4407065c93f23a5f84,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,61
+12,60fd8e4407065c93f23a5f84,16,tight,belt,Raplh's belt might be tight,filler,6,1,31
+12,60fd8e4407065c93f23a5f84,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,37
+12,60fd8e4407065c93f23a5f84,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,39
+12,60fd8e4407065c93f23a5f84,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+12,60fd8e4407065c93f23a5f84,9,clean,shoes,Michael's shoes look clean,looks,10,1,74
+12,60fd8e4407065c93f23a5f84,1,beige,suit,Elliot's suit is beige,bare,11,1,95
+12,60fd8e4407065c93f23a5f84,6,loose,pants,Steve's pants look loose,looks,12,1,56
+12,60fd8e4407065c93f23a5f84,5,short,skirt,Zoe's skirt is short,bare,13,1,95
+12,60fd8e4407065c93f23a5f84,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,35
+12,60fd8e4407065c93f23a5f84,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,74
+12,60fd8e4407065c93f23a5f84,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+12,60fd8e4407065c93f23a5f84,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,23
+12,60fd8e4407065c93f23a5f84,18,silky,tie,David's tie might be silky,filler,18,1,36
+12,60fd8e4407065c93f23a5f84,12,green,vest,I think Tom's vest is green,filler,19,1,64
+12,60fd8e4407065c93f23a5f84,2,purple,coat,Holly's coat looks purple,looks,20,1,70
+13,5ea492e3b1b3620a6fee3b90,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,11
+13,5ea492e3b1b3620a6fee3b90,15,long,gown,I think Jenny's gown is long,filler,2,1,29
+13,5ea492e3b1b3620a6fee3b90,20,damp,top,Samantha's top might be damp,filler,3,1,10
+13,5ea492e3b1b3620a6fee3b90,10,oily,purse,Natalie's purse is oily,bare,4,1,97
+13,5ea492e3b1b3620a6fee3b90,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,84
+13,5ea492e3b1b3620a6fee3b90,16,tight,belt,Raplh's belt might be tight,filler,6,1,36
+13,5ea492e3b1b3620a6fee3b90,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,25
+13,5ea492e3b1b3620a6fee3b90,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,12
+13,5ea492e3b1b3620a6fee3b90,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,99
+13,5ea492e3b1b3620a6fee3b90,9,clean,shoes,Michael's shoes look clean,looks,10,1,93
+13,5ea492e3b1b3620a6fee3b90,1,beige,suit,Elliot's suit is beige,bare,11,1,99
+13,5ea492e3b1b3620a6fee3b90,6,loose,pants,Steve's pants look loose,looks,12,1,76
+13,5ea492e3b1b3620a6fee3b90,5,short,skirt,Zoe's skirt is short,bare,13,1,87
+13,5ea492e3b1b3620a6fee3b90,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,22
+13,5ea492e3b1b3620a6fee3b90,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,68
+13,5ea492e3b1b3620a6fee3b90,4,shiny,dress,Kate's dress is shiny,bare,16,1,97
+13,5ea492e3b1b3620a6fee3b90,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,23
+13,5ea492e3b1b3620a6fee3b90,18,silky,tie,David's tie might be silky,filler,18,1,22
+13,5ea492e3b1b3620a6fee3b90,12,green,vest,I think Tom's vest is green,filler,19,1,18
+13,5ea492e3b1b3620a6fee3b90,2,purple,coat,Holly's coat looks purple,looks,20,1,83
+14,60a1e1f4a3707c983a98f185,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,39
+14,60a1e1f4a3707c983a98f185,15,long,gown,I think Jenny's gown is long,filler,2,1,51
+14,60a1e1f4a3707c983a98f185,20,damp,top,Samantha's top might be damp,filler,3,1,59
+14,60a1e1f4a3707c983a98f185,10,oily,purse,Natalie's purse is oily,bare,4,1,82
+14,60a1e1f4a3707c983a98f185,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,86
+14,60a1e1f4a3707c983a98f185,16,tight,belt,Raplh's belt might be tight,filler,6,1,40
+14,60a1e1f4a3707c983a98f185,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,49
+14,60a1e1f4a3707c983a98f185,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,37
+14,60a1e1f4a3707c983a98f185,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,92
+14,60a1e1f4a3707c983a98f185,9,clean,shoes,Michael's shoes look clean,looks,10,1,78
+14,60a1e1f4a3707c983a98f185,1,beige,suit,Elliot's suit is beige,bare,11,1,92
+14,60a1e1f4a3707c983a98f185,6,loose,pants,Steve's pants look loose,looks,12,1,65
+14,60a1e1f4a3707c983a98f185,5,short,skirt,Zoe's skirt is short,bare,13,1,91
+14,60a1e1f4a3707c983a98f185,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,61
+14,60a1e1f4a3707c983a98f185,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,76
+14,60a1e1f4a3707c983a98f185,4,shiny,dress,Kate's dress is shiny,bare,16,1,91
+14,60a1e1f4a3707c983a98f185,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,41
+14,60a1e1f4a3707c983a98f185,18,silky,tie,David's tie might be silky,filler,18,1,40
+14,60a1e1f4a3707c983a98f185,12,green,vest,I think Tom's vest is green,filler,19,1,54
+14,60a1e1f4a3707c983a98f185,2,purple,coat,Holly's coat looks purple,looks,20,1,70
+15,611891ebef307851334d9dc7,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,64
+15,611891ebef307851334d9dc7,15,long,gown,I think Jenny's gown is long,filler,2,1,95
+15,611891ebef307851334d9dc7,20,damp,top,Samantha's top might be damp,filler,3,1,62
+15,611891ebef307851334d9dc7,10,oily,purse,Natalie's purse is oily,bare,4,1,97
+15,611891ebef307851334d9dc7,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,100
+15,611891ebef307851334d9dc7,16,tight,belt,Raplh's belt might be tight,filler,6,1,42
+15,611891ebef307851334d9dc7,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,64
+15,611891ebef307851334d9dc7,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,69
+15,611891ebef307851334d9dc7,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+15,611891ebef307851334d9dc7,9,clean,shoes,Michael's shoes look clean,looks,10,1,100
+15,611891ebef307851334d9dc7,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+15,611891ebef307851334d9dc7,6,loose,pants,Steve's pants look loose,looks,12,1,78
+15,611891ebef307851334d9dc7,5,short,skirt,Zoe's skirt is short,bare,13,1,100
+15,611891ebef307851334d9dc7,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,66
+15,611891ebef307851334d9dc7,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,63
+15,611891ebef307851334d9dc7,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+15,611891ebef307851334d9dc7,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,66
+15,611891ebef307851334d9dc7,18,silky,tie,David's tie might be silky,filler,18,1,43
+15,611891ebef307851334d9dc7,12,green,vest,I think Tom's vest is green,filler,19,1,64
+15,611891ebef307851334d9dc7,2,purple,coat,Holly's coat looks purple,looks,20,1,60
+16,5f58fbdfd613220ce947d61a,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,51
+16,5f58fbdfd613220ce947d61a,15,long,gown,I think Jenny's gown is long,filler,2,1,61
+16,5f58fbdfd613220ce947d61a,20,damp,top,Samantha's top might be damp,filler,3,1,71
+16,5f58fbdfd613220ce947d61a,10,oily,purse,Natalie's purse is oily,bare,4,1,60
+16,5f58fbdfd613220ce947d61a,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,51
+16,5f58fbdfd613220ce947d61a,16,tight,belt,Raplh's belt might be tight,filler,6,1,56
+16,5f58fbdfd613220ce947d61a,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,70
+16,5f58fbdfd613220ce947d61a,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,86
+16,5f58fbdfd613220ce947d61a,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,71
+16,5f58fbdfd613220ce947d61a,9,clean,shoes,Michael's shoes look clean,looks,10,1,86
+16,5f58fbdfd613220ce947d61a,1,beige,suit,Elliot's suit is beige,bare,11,1,91
+16,5f58fbdfd613220ce947d61a,6,loose,pants,Steve's pants look loose,looks,12,1,74
+16,5f58fbdfd613220ce947d61a,5,short,skirt,Zoe's skirt is short,bare,13,1,90
+16,5f58fbdfd613220ce947d61a,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,73
+16,5f58fbdfd613220ce947d61a,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,91
+16,5f58fbdfd613220ce947d61a,4,shiny,dress,Kate's dress is shiny,bare,16,1,91
+16,5f58fbdfd613220ce947d61a,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,51
+16,5f58fbdfd613220ce947d61a,18,silky,tie,David's tie might be silky,filler,18,1,86
+16,5f58fbdfd613220ce947d61a,12,green,vest,I think Tom's vest is green,filler,19,1,95
+16,5f58fbdfd613220ce947d61a,2,purple,coat,Holly's coat looks purple,looks,20,1,90
+17,6105a358dfef036828f7d2fa,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,30
+17,6105a358dfef036828f7d2fa,15,long,gown,I think Jenny's gown is long,filler,2,1,87
+17,6105a358dfef036828f7d2fa,20,damp,top,Samantha's top might be damp,filler,3,1,34
+17,6105a358dfef036828f7d2fa,10,oily,purse,Natalie's purse is oily,bare,4,1,100
+17,6105a358dfef036828f7d2fa,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,98
+17,6105a358dfef036828f7d2fa,16,tight,belt,Raplh's belt might be tight,filler,6,1,31
+17,6105a358dfef036828f7d2fa,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,91
+17,6105a358dfef036828f7d2fa,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,82
+17,6105a358dfef036828f7d2fa,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+17,6105a358dfef036828f7d2fa,9,clean,shoes,Michael's shoes look clean,looks,10,1,98
+17,6105a358dfef036828f7d2fa,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+17,6105a358dfef036828f7d2fa,6,loose,pants,Steve's pants look loose,looks,12,1,84
+17,6105a358dfef036828f7d2fa,5,short,skirt,Zoe's skirt is short,bare,13,1,100
+17,6105a358dfef036828f7d2fa,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,87
+17,6105a358dfef036828f7d2fa,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,86
+17,6105a358dfef036828f7d2fa,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+17,6105a358dfef036828f7d2fa,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,87
+17,6105a358dfef036828f7d2fa,18,silky,tie,David's tie might be silky,filler,18,1,84
+17,6105a358dfef036828f7d2fa,12,green,vest,I think Tom's vest is green,filler,19,1,90
+17,6105a358dfef036828f7d2fa,2,purple,coat,Holly's coat looks purple,looks,20,1,80
+18,5719de0ac97ad400083a20e6,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,20
+18,5719de0ac97ad400083a20e6,15,long,gown,I think Jenny's gown is long,filler,2,1,60
+18,5719de0ac97ad400083a20e6,20,damp,top,Samantha's top might be damp,filler,3,1,70
+18,5719de0ac97ad400083a20e6,10,oily,purse,Natalie's purse is oily,bare,4,1,100
+18,5719de0ac97ad400083a20e6,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,100
+18,5719de0ac97ad400083a20e6,16,tight,belt,Raplh's belt might be tight,filler,6,1,39
+18,5719de0ac97ad400083a20e6,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,81
+18,5719de0ac97ad400083a20e6,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,19
+18,5719de0ac97ad400083a20e6,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+18,5719de0ac97ad400083a20e6,9,clean,shoes,Michael's shoes look clean,looks,10,1,100
+18,5719de0ac97ad400083a20e6,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+18,5719de0ac97ad400083a20e6,6,loose,pants,Steve's pants look loose,looks,12,1,91
+18,5719de0ac97ad400083a20e6,5,short,skirt,Zoe's skirt is short,bare,13,1,100
+18,5719de0ac97ad400083a20e6,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,30
+18,5719de0ac97ad400083a20e6,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,91
+18,5719de0ac97ad400083a20e6,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+18,5719de0ac97ad400083a20e6,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,8
+18,5719de0ac97ad400083a20e6,18,silky,tie,David's tie might be silky,filler,18,1,19
+18,5719de0ac97ad400083a20e6,12,green,vest,I think Tom's vest is green,filler,19,1,18
+18,5719de0ac97ad400083a20e6,2,purple,coat,Holly's coat looks purple,looks,20,1,7
+19,5d31d940814d1c0001c69c5a,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,20
+19,5d31d940814d1c0001c69c5a,15,long,gown,I think Jenny's gown is long,filler,2,1,21
+19,5d31d940814d1c0001c69c5a,20,damp,top,Samantha's top might be damp,filler,3,1,21
+19,5d31d940814d1c0001c69c5a,10,oily,purse,Natalie's purse is oily,bare,4,1,100
+19,5d31d940814d1c0001c69c5a,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,39
+19,5d31d940814d1c0001c69c5a,16,tight,belt,Raplh's belt might be tight,filler,6,1,26
+19,5d31d940814d1c0001c69c5a,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,71
+19,5d31d940814d1c0001c69c5a,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,54
+19,5d31d940814d1c0001c69c5a,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+19,5d31d940814d1c0001c69c5a,9,clean,shoes,Michael's shoes look clean,looks,10,1,94
+19,5d31d940814d1c0001c69c5a,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+19,5d31d940814d1c0001c69c5a,6,loose,pants,Steve's pants look loose,looks,12,1,41
+19,5d31d940814d1c0001c69c5a,5,short,skirt,Zoe's skirt is short,bare,13,1,99
+19,5d31d940814d1c0001c69c5a,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,66
+19,5d31d940814d1c0001c69c5a,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,78
+19,5d31d940814d1c0001c69c5a,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+19,5d31d940814d1c0001c69c5a,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,30
+19,5d31d940814d1c0001c69c5a,18,silky,tie,David's tie might be silky,filler,18,1,42
+19,5d31d940814d1c0001c69c5a,12,green,vest,I think Tom's vest is green,filler,19,1,41
+19,5d31d940814d1c0001c69c5a,2,purple,coat,Holly's coat looks purple,looks,20,1,44
+20,603c69904835ea83ab3a7eb9,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,1,1,19
+20,603c69904835ea83ab3a7eb9,15,long,gown,I think Jenny's gown is long,filler,2,1,25
+20,603c69904835ea83ab3a7eb9,20,damp,top,Samantha's top might be damp,filler,3,1,19
+20,603c69904835ea83ab3a7eb9,10,oily,purse,Natalie's purse is oily,bare,4,1,95
+20,603c69904835ea83ab3a7eb9,7,bulky,jacket,Dylan's jacket looks bulky,looks,5,1,81
+20,603c69904835ea83ab3a7eb9,16,tight,belt,Raplh's belt might be tight,filler,6,1,23
+20,603c69904835ea83ab3a7eb9,14,faded,jeans,I think Frank's jeans are faded,filler,7,1,61
+20,603c69904835ea83ab3a7eb9,11,crimson,outfit,Mark's outfit might be crimson,filler,8,1,23
+20,603c69904835ea83ab3a7eb9,8,fuzzy,scarf,Gail's scarf is fuzzy,bare,9,1,100
+20,603c69904835ea83ab3a7eb9,9,clean,shoes,Michael's shoes look clean,looks,10,1,60
+20,603c69904835ea83ab3a7eb9,1,beige,suit,Elliot's suit is beige,bare,11,1,100
+20,603c69904835ea83ab3a7eb9,6,loose,pants,Steve's pants look loose,looks,12,1,38
+20,603c69904835ea83ab3a7eb9,5,short,skirt,Zoe's skirt is short,bare,13,1,100
+20,603c69904835ea83ab3a7eb9,17,transparent,blouse,I think Sarah's blouse is transparent,filler,14,1,55
+20,603c69904835ea83ab3a7eb9,3,striped,shirt,Ashley's shirt looks striped,looks,15,1,93
+20,603c69904835ea83ab3a7eb9,4,shiny,dress,Kate's dress is shiny,bare,16,1,100
+20,603c69904835ea83ab3a7eb9,19,dirty,socks,I think Peter's socks are dirty,filler,17,1,32
+20,603c69904835ea83ab3a7eb9,18,silky,tie,David's tie might be silky,filler,18,1,39
+20,603c69904835ea83ab3a7eb9,12,green,vest,I think Tom's vest is green,filler,19,1,40
+20,603c69904835ea83ab3a7eb9,2,purple,coat,Holly's coat looks purple,looks,20,1,40
+21,6104982215aba9995ba83f18,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,9
+21,6104982215aba9995ba83f18,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,29
+21,6104982215aba9995ba83f18,6,loose,pants,Steve's pants are loose,bare,3,2,81
+21,6104982215aba9995ba83f18,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,49
+21,6104982215aba9995ba83f18,16,tight,belt,Raplh's belt might be tight,filler,5,2,19
+21,6104982215aba9995ba83f18,15,long,gown,I think Jenny's gown is long,filler,6,2,90
+21,6104982215aba9995ba83f18,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,77
+21,6104982215aba9995ba83f18,9,clean,shoes,Michael's shoes are clean,bare,8,2,93
+21,6104982215aba9995ba83f18,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,36
+21,6104982215aba9995ba83f18,3,striped,shirt,Ashley's shirt is striped,bare,10,2,68
+21,6104982215aba9995ba83f18,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,39
+21,6104982215aba9995ba83f18,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,95
+21,6104982215aba9995ba83f18,5,short,skirt,Zoe's skirt looks short,looks,13,2,100
+21,6104982215aba9995ba83f18,20,damp,top,Samantha's top might be damp,filler,14,2,32
+21,6104982215aba9995ba83f18,1,beige,suit,Elliot's suit looks beige,looks,15,2,76
+21,6104982215aba9995ba83f18,12,green,vest,I think Tom's vest is green,filler,16,2,42
+21,6104982215aba9995ba83f18,4,shiny,dress,Kate's dress looks shiny,looks,17,2,86
+21,6104982215aba9995ba83f18,2,purple,coat,Holly's coat is purple,bare,18,2,91
+21,6104982215aba9995ba83f18,18,silky,tie,David's tie might be silky,filler,19,2,61
+21,6104982215aba9995ba83f18,10,oily,purse,Natalie's purse looks oily,looks,20,2,100
+22,57f3b6bfa1100100016d1454,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,71
+22,57f3b6bfa1100100016d1454,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,60
+22,57f3b6bfa1100100016d1454,6,loose,pants,Steve's pants are loose,bare,3,2,100
+22,57f3b6bfa1100100016d1454,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,71
+22,57f3b6bfa1100100016d1454,16,tight,belt,Raplh's belt might be tight,filler,5,2,51
+22,57f3b6bfa1100100016d1454,15,long,gown,I think Jenny's gown is long,filler,6,2,81
+22,57f3b6bfa1100100016d1454,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,100
+22,57f3b6bfa1100100016d1454,9,clean,shoes,Michael's shoes are clean,bare,8,2,100
+22,57f3b6bfa1100100016d1454,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,74
+22,57f3b6bfa1100100016d1454,3,striped,shirt,Ashley's shirt is striped,bare,10,2,100
+22,57f3b6bfa1100100016d1454,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,78
+22,57f3b6bfa1100100016d1454,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,100
+22,57f3b6bfa1100100016d1454,5,short,skirt,Zoe's skirt looks short,looks,13,2,100
+22,57f3b6bfa1100100016d1454,20,damp,top,Samantha's top might be damp,filler,14,2,58
+22,57f3b6bfa1100100016d1454,1,beige,suit,Elliot's suit looks beige,looks,15,2,88
+22,57f3b6bfa1100100016d1454,12,green,vest,I think Tom's vest is green,filler,16,2,92
+22,57f3b6bfa1100100016d1454,4,shiny,dress,Kate's dress looks shiny,looks,17,2,100
+22,57f3b6bfa1100100016d1454,2,purple,coat,Holly's coat is purple,bare,18,2,100
+22,57f3b6bfa1100100016d1454,18,silky,tie,David's tie might be silky,filler,19,2,84
+22,57f3b6bfa1100100016d1454,10,oily,purse,Natalie's purse looks oily,looks,20,2,66
+23,62869a1b7fff9c9a48fe6087,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,30
+23,62869a1b7fff9c9a48fe6087,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,62
+23,62869a1b7fff9c9a48fe6087,6,loose,pants,Steve's pants are loose,bare,3,2,60
+23,62869a1b7fff9c9a48fe6087,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,51
+23,62869a1b7fff9c9a48fe6087,16,tight,belt,Raplh's belt might be tight,filler,5,2,37
+23,62869a1b7fff9c9a48fe6087,15,long,gown,I think Jenny's gown is long,filler,6,2,87
+23,62869a1b7fff9c9a48fe6087,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,94
+23,62869a1b7fff9c9a48fe6087,9,clean,shoes,Michael's shoes are clean,bare,8,2,66
+23,62869a1b7fff9c9a48fe6087,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,23
+23,62869a1b7fff9c9a48fe6087,3,striped,shirt,Ashley's shirt is striped,bare,10,2,97
+23,62869a1b7fff9c9a48fe6087,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,35
+23,62869a1b7fff9c9a48fe6087,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,89
+23,62869a1b7fff9c9a48fe6087,5,short,skirt,Zoe's skirt looks short,looks,13,2,69
+23,62869a1b7fff9c9a48fe6087,20,damp,top,Samantha's top might be damp,filler,14,2,22
+23,62869a1b7fff9c9a48fe6087,1,beige,suit,Elliot's suit looks beige,looks,15,2,88
+23,62869a1b7fff9c9a48fe6087,12,green,vest,I think Tom's vest is green,filler,16,2,32
+23,62869a1b7fff9c9a48fe6087,4,shiny,dress,Kate's dress looks shiny,looks,17,2,90
+23,62869a1b7fff9c9a48fe6087,2,purple,coat,Holly's coat is purple,bare,18,2,94
+23,62869a1b7fff9c9a48fe6087,18,silky,tie,David's tie might be silky,filler,19,2,22
+23,62869a1b7fff9c9a48fe6087,10,oily,purse,Natalie's purse looks oily,looks,20,2,93
+24,605ab4ac7ee22780d068b662,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,51
+24,605ab4ac7ee22780d068b662,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,71
+24,605ab4ac7ee22780d068b662,6,loose,pants,Steve's pants are loose,bare,3,2,91
+24,605ab4ac7ee22780d068b662,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,92
+24,605ab4ac7ee22780d068b662,16,tight,belt,Raplh's belt might be tight,filler,5,2,85
+24,605ab4ac7ee22780d068b662,15,long,gown,I think Jenny's gown is long,filler,6,2,72
+24,605ab4ac7ee22780d068b662,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,91
+24,605ab4ac7ee22780d068b662,9,clean,shoes,Michael's shoes are clean,bare,8,2,100
+24,605ab4ac7ee22780d068b662,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,90
+24,605ab4ac7ee22780d068b662,3,striped,shirt,Ashley's shirt is striped,bare,10,2,100
+24,605ab4ac7ee22780d068b662,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,90
+24,605ab4ac7ee22780d068b662,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,95
+24,605ab4ac7ee22780d068b662,5,short,skirt,Zoe's skirt looks short,looks,13,2,75
+24,605ab4ac7ee22780d068b662,20,damp,top,Samantha's top might be damp,filler,14,2,70
+24,605ab4ac7ee22780d068b662,1,beige,suit,Elliot's suit looks beige,looks,15,2,95
+24,605ab4ac7ee22780d068b662,12,green,vest,I think Tom's vest is green,filler,16,2,83
+24,605ab4ac7ee22780d068b662,4,shiny,dress,Kate's dress looks shiny,looks,17,2,97
+24,605ab4ac7ee22780d068b662,2,purple,coat,Holly's coat is purple,bare,18,2,96
+24,605ab4ac7ee22780d068b662,18,silky,tie,David's tie might be silky,filler,19,2,61
+24,605ab4ac7ee22780d068b662,10,oily,purse,Natalie's purse looks oily,looks,20,2,20
+25,610851ae0b6b2e2414c9494f,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,70
+25,610851ae0b6b2e2414c9494f,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,19
+25,610851ae0b6b2e2414c9494f,6,loose,pants,Steve's pants are loose,bare,3,2,91
+25,610851ae0b6b2e2414c9494f,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,71
+25,610851ae0b6b2e2414c9494f,16,tight,belt,Raplh's belt might be tight,filler,5,2,29
+25,610851ae0b6b2e2414c9494f,15,long,gown,I think Jenny's gown is long,filler,6,2,60
+25,610851ae0b6b2e2414c9494f,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,75
+25,610851ae0b6b2e2414c9494f,9,clean,shoes,Michael's shoes are clean,bare,8,2,91
+25,610851ae0b6b2e2414c9494f,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,61
+25,610851ae0b6b2e2414c9494f,3,striped,shirt,Ashley's shirt is striped,bare,10,2,93
+25,610851ae0b6b2e2414c9494f,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,51
+25,610851ae0b6b2e2414c9494f,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,91
+25,610851ae0b6b2e2414c9494f,5,short,skirt,Zoe's skirt looks short,looks,13,2,92
+25,610851ae0b6b2e2414c9494f,20,damp,top,Samantha's top might be damp,filler,14,2,19
+25,610851ae0b6b2e2414c9494f,1,beige,suit,Elliot's suit looks beige,looks,15,2,70
+25,610851ae0b6b2e2414c9494f,12,green,vest,I think Tom's vest is green,filler,16,2,60
+25,610851ae0b6b2e2414c9494f,4,shiny,dress,Kate's dress looks shiny,looks,17,2,81
+25,610851ae0b6b2e2414c9494f,2,purple,coat,Holly's coat is purple,bare,18,2,91
+25,610851ae0b6b2e2414c9494f,18,silky,tie,David's tie might be silky,filler,19,2,66
+25,610851ae0b6b2e2414c9494f,10,oily,purse,Natalie's purse looks oily,looks,20,2,82
+26,5c6f2e7632cb70000169b490,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,0
+26,5c6f2e7632cb70000169b490,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,0
+26,5c6f2e7632cb70000169b490,6,loose,pants,Steve's pants are loose,bare,3,2,93
+26,5c6f2e7632cb70000169b490,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,8
+26,5c6f2e7632cb70000169b490,16,tight,belt,Raplh's belt might be tight,filler,5,2,51
+26,5c6f2e7632cb70000169b490,15,long,gown,I think Jenny's gown is long,filler,6,2,88
+26,5c6f2e7632cb70000169b490,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,91
+26,5c6f2e7632cb70000169b490,9,clean,shoes,Michael's shoes are clean,bare,8,2,100
+26,5c6f2e7632cb70000169b490,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,86
+26,5c6f2e7632cb70000169b490,3,striped,shirt,Ashley's shirt is striped,bare,10,2,100
+26,5c6f2e7632cb70000169b490,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,87
+26,5c6f2e7632cb70000169b490,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,100
+26,5c6f2e7632cb70000169b490,5,short,skirt,Zoe's skirt looks short,looks,13,2,100
+26,5c6f2e7632cb70000169b490,20,damp,top,Samantha's top might be damp,filler,14,2,51
+26,5c6f2e7632cb70000169b490,1,beige,suit,Elliot's suit looks beige,looks,15,2,86
+26,5c6f2e7632cb70000169b490,12,green,vest,I think Tom's vest is green,filler,16,2,92
+26,5c6f2e7632cb70000169b490,4,shiny,dress,Kate's dress looks shiny,looks,17,2,88
+26,5c6f2e7632cb70000169b490,2,purple,coat,Holly's coat is purple,bare,18,2,100
+26,5c6f2e7632cb70000169b490,18,silky,tie,David's tie might be silky,filler,19,2,68
+26,5c6f2e7632cb70000169b490,10,oily,purse,Natalie's purse looks oily,looks,20,2,78
+27,5db7e95a0b850e000f5e0b6f,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,44
+27,5db7e95a0b850e000f5e0b6f,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,33
+27,5db7e95a0b850e000f5e0b6f,6,loose,pants,Steve's pants are loose,bare,3,2,60
+27,5db7e95a0b850e000f5e0b6f,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,47
+27,5db7e95a0b850e000f5e0b6f,16,tight,belt,Raplh's belt might be tight,filler,5,2,37
+27,5db7e95a0b850e000f5e0b6f,15,long,gown,I think Jenny's gown is long,filler,6,2,59
+27,5db7e95a0b850e000f5e0b6f,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,60
+27,5db7e95a0b850e000f5e0b6f,9,clean,shoes,Michael's shoes are clean,bare,8,2,68
+27,5db7e95a0b850e000f5e0b6f,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,30
+27,5db7e95a0b850e000f5e0b6f,3,striped,shirt,Ashley's shirt is striped,bare,10,2,72
+27,5db7e95a0b850e000f5e0b6f,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,52
+27,5db7e95a0b850e000f5e0b6f,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,59
+27,5db7e95a0b850e000f5e0b6f,5,short,skirt,Zoe's skirt looks short,looks,13,2,50
+27,5db7e95a0b850e000f5e0b6f,20,damp,top,Samantha's top might be damp,filler,14,2,43
+27,5db7e95a0b850e000f5e0b6f,1,beige,suit,Elliot's suit looks beige,looks,15,2,54
+27,5db7e95a0b850e000f5e0b6f,12,green,vest,I think Tom's vest is green,filler,16,2,39
+27,5db7e95a0b850e000f5e0b6f,4,shiny,dress,Kate's dress looks shiny,looks,17,2,69
+27,5db7e95a0b850e000f5e0b6f,2,purple,coat,Holly's coat is purple,bare,18,2,80
+27,5db7e95a0b850e000f5e0b6f,18,silky,tie,David's tie might be silky,filler,19,2,46
+27,5db7e95a0b850e000f5e0b6f,10,oily,purse,Natalie's purse looks oily,looks,20,2,51
+28,6111fbc631ab58cd03ce405b,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,51
+28,6111fbc631ab58cd03ce405b,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,81
+28,6111fbc631ab58cd03ce405b,6,loose,pants,Steve's pants are loose,bare,3,2,83
+28,6111fbc631ab58cd03ce405b,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,51
+28,6111fbc631ab58cd03ce405b,16,tight,belt,Raplh's belt might be tight,filler,5,2,59
+28,6111fbc631ab58cd03ce405b,15,long,gown,I think Jenny's gown is long,filler,6,2,86
+28,6111fbc631ab58cd03ce405b,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,51
+28,6111fbc631ab58cd03ce405b,9,clean,shoes,Michael's shoes are clean,bare,8,2,87
+28,6111fbc631ab58cd03ce405b,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,74
+28,6111fbc631ab58cd03ce405b,3,striped,shirt,Ashley's shirt is striped,bare,10,2,100
+28,6111fbc631ab58cd03ce405b,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,51
+28,6111fbc631ab58cd03ce405b,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,62
+28,6111fbc631ab58cd03ce405b,5,short,skirt,Zoe's skirt looks short,looks,13,2,82
+28,6111fbc631ab58cd03ce405b,20,damp,top,Samantha's top might be damp,filler,14,2,51
+28,6111fbc631ab58cd03ce405b,1,beige,suit,Elliot's suit looks beige,looks,15,2,83
+28,6111fbc631ab58cd03ce405b,12,green,vest,I think Tom's vest is green,filler,16,2,72
+28,6111fbc631ab58cd03ce405b,4,shiny,dress,Kate's dress looks shiny,looks,17,2,72
+28,6111fbc631ab58cd03ce405b,2,purple,coat,Holly's coat is purple,bare,18,2,100
+28,6111fbc631ab58cd03ce405b,18,silky,tie,David's tie might be silky,filler,19,2,51
+28,6111fbc631ab58cd03ce405b,10,oily,purse,Natalie's purse looks oily,looks,20,2,69
+29,6111a1563a1ee66375aa174b,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,38
+29,6111a1563a1ee66375aa174b,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,55
+29,6111a1563a1ee66375aa174b,6,loose,pants,Steve's pants are loose,bare,3,2,59
+29,6111a1563a1ee66375aa174b,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,56
+29,6111a1563a1ee66375aa174b,16,tight,belt,Raplh's belt might be tight,filler,5,2,58
+29,6111a1563a1ee66375aa174b,15,long,gown,I think Jenny's gown is long,filler,6,2,60
+29,6111a1563a1ee66375aa174b,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,69
+29,6111a1563a1ee66375aa174b,9,clean,shoes,Michael's shoes are clean,bare,8,2,69
+29,6111a1563a1ee66375aa174b,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,54
+29,6111a1563a1ee66375aa174b,3,striped,shirt,Ashley's shirt is striped,bare,10,2,70
+29,6111a1563a1ee66375aa174b,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,57
+29,6111a1563a1ee66375aa174b,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,69
+29,6111a1563a1ee66375aa174b,5,short,skirt,Zoe's skirt looks short,looks,13,2,68
+29,6111a1563a1ee66375aa174b,20,damp,top,Samantha's top might be damp,filler,14,2,56
+29,6111a1563a1ee66375aa174b,1,beige,suit,Elliot's suit looks beige,looks,15,2,59
+29,6111a1563a1ee66375aa174b,12,green,vest,I think Tom's vest is green,filler,16,2,60
+29,6111a1563a1ee66375aa174b,4,shiny,dress,Kate's dress looks shiny,looks,17,2,65
+29,6111a1563a1ee66375aa174b,2,purple,coat,Holly's coat is purple,bare,18,2,68
+29,6111a1563a1ee66375aa174b,18,silky,tie,David's tie might be silky,filler,19,2,54
+29,6111a1563a1ee66375aa174b,10,oily,purse,Natalie's purse looks oily,looks,20,2,55
+30,617065c12157f256425d5356,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,70
+30,617065c12157f256425d5356,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,36
+30,617065c12157f256425d5356,6,loose,pants,Steve's pants are loose,bare,3,2,97
+30,617065c12157f256425d5356,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,71
+30,617065c12157f256425d5356,16,tight,belt,Raplh's belt might be tight,filler,5,2,67
+30,617065c12157f256425d5356,15,long,gown,I think Jenny's gown is long,filler,6,2,95
+30,617065c12157f256425d5356,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,100
+30,617065c12157f256425d5356,9,clean,shoes,Michael's shoes are clean,bare,8,2,81
+30,617065c12157f256425d5356,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,35
+30,617065c12157f256425d5356,3,striped,shirt,Ashley's shirt is striped,bare,10,2,100
+30,617065c12157f256425d5356,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,44
+30,617065c12157f256425d5356,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,100
+30,617065c12157f256425d5356,5,short,skirt,Zoe's skirt looks short,looks,13,2,84
+30,617065c12157f256425d5356,20,damp,top,Samantha's top might be damp,filler,14,2,26
+30,617065c12157f256425d5356,1,beige,suit,Elliot's suit looks beige,looks,15,2,88
+30,617065c12157f256425d5356,12,green,vest,I think Tom's vest is green,filler,16,2,78
+30,617065c12157f256425d5356,4,shiny,dress,Kate's dress looks shiny,looks,17,2,98
+30,617065c12157f256425d5356,2,purple,coat,Holly's coat is purple,bare,18,2,100
+30,617065c12157f256425d5356,18,silky,tie,David's tie might be silky,filler,19,2,63
+30,617065c12157f256425d5356,10,oily,purse,Natalie's purse looks oily,looks,20,2,15
+31,5bc3b13fa36d7100013f4b62,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,33
+31,5bc3b13fa36d7100013f4b62,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,47
+31,5bc3b13fa36d7100013f4b62,6,loose,pants,Steve's pants are loose,bare,3,2,100
+31,5bc3b13fa36d7100013f4b62,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,51
+31,5bc3b13fa36d7100013f4b62,16,tight,belt,Raplh's belt might be tight,filler,5,2,46
+31,5bc3b13fa36d7100013f4b62,15,long,gown,I think Jenny's gown is long,filler,6,2,53
+31,5bc3b13fa36d7100013f4b62,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,81
+31,5bc3b13fa36d7100013f4b62,9,clean,shoes,Michael's shoes are clean,bare,8,2,100
+31,5bc3b13fa36d7100013f4b62,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,55
+31,5bc3b13fa36d7100013f4b62,3,striped,shirt,Ashley's shirt is striped,bare,10,2,100
+31,5bc3b13fa36d7100013f4b62,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,62
+31,5bc3b13fa36d7100013f4b62,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,100
+31,5bc3b13fa36d7100013f4b62,5,short,skirt,Zoe's skirt looks short,looks,13,2,75
+31,5bc3b13fa36d7100013f4b62,20,damp,top,Samantha's top might be damp,filler,14,2,61
+31,5bc3b13fa36d7100013f4b62,1,beige,suit,Elliot's suit looks beige,looks,15,2,71
+31,5bc3b13fa36d7100013f4b62,12,green,vest,I think Tom's vest is green,filler,16,2,74
+31,5bc3b13fa36d7100013f4b62,4,shiny,dress,Kate's dress looks shiny,looks,17,2,100
+31,5bc3b13fa36d7100013f4b62,2,purple,coat,Holly's coat is purple,bare,18,2,100
+31,5bc3b13fa36d7100013f4b62,18,silky,tie,David's tie might be silky,filler,19,2,54
+31,5bc3b13fa36d7100013f4b62,10,oily,purse,Natalie's purse looks oily,looks,20,2,84
+32,5b0495e0b98c410001adb589,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,11
+32,5b0495e0b98c410001adb589,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,11
+32,5b0495e0b98c410001adb589,6,loose,pants,Steve's pants are loose,bare,3,2,76
+32,5b0495e0b98c410001adb589,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,14
+32,5b0495e0b98c410001adb589,16,tight,belt,Raplh's belt might be tight,filler,5,2,11
+32,5b0495e0b98c410001adb589,15,long,gown,I think Jenny's gown is long,filler,6,2,13
+32,5b0495e0b98c410001adb589,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,30
+32,5b0495e0b98c410001adb589,9,clean,shoes,Michael's shoes are clean,bare,8,2,87
+32,5b0495e0b98c410001adb589,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,10
+32,5b0495e0b98c410001adb589,3,striped,shirt,Ashley's shirt is striped,bare,10,2,90
+32,5b0495e0b98c410001adb589,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,24
+32,5b0495e0b98c410001adb589,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,88
+32,5b0495e0b98c410001adb589,5,short,skirt,Zoe's skirt looks short,looks,13,2,33
+32,5b0495e0b98c410001adb589,20,damp,top,Samantha's top might be damp,filler,14,2,13
+32,5b0495e0b98c410001adb589,1,beige,suit,Elliot's suit looks beige,looks,15,2,46
+32,5b0495e0b98c410001adb589,12,green,vest,I think Tom's vest is green,filler,16,2,51
+32,5b0495e0b98c410001adb589,4,shiny,dress,Kate's dress looks shiny,looks,17,2,51
+32,5b0495e0b98c410001adb589,2,purple,coat,Holly's coat is purple,bare,18,2,89
+32,5b0495e0b98c410001adb589,18,silky,tie,David's tie might be silky,filler,19,2,28
+32,5b0495e0b98c410001adb589,10,oily,purse,Natalie's purse looks oily,looks,20,2,49
+33,6096ee4ed5f41e6e17598ec9,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,77
+33,6096ee4ed5f41e6e17598ec9,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,81
+33,6096ee4ed5f41e6e17598ec9,6,loose,pants,Steve's pants are loose,bare,3,2,97
+33,6096ee4ed5f41e6e17598ec9,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,86
+33,6096ee4ed5f41e6e17598ec9,16,tight,belt,Raplh's belt might be tight,filler,5,2,67
+33,6096ee4ed5f41e6e17598ec9,15,long,gown,I think Jenny's gown is long,filler,6,2,86
+33,6096ee4ed5f41e6e17598ec9,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,96
+33,6096ee4ed5f41e6e17598ec9,9,clean,shoes,Michael's shoes are clean,bare,8,2,99
+33,6096ee4ed5f41e6e17598ec9,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,81
+33,6096ee4ed5f41e6e17598ec9,3,striped,shirt,Ashley's shirt is striped,bare,10,2,100
+33,6096ee4ed5f41e6e17598ec9,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,81
+33,6096ee4ed5f41e6e17598ec9,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,95
+33,6096ee4ed5f41e6e17598ec9,5,short,skirt,Zoe's skirt looks short,looks,13,2,100
+33,6096ee4ed5f41e6e17598ec9,20,damp,top,Samantha's top might be damp,filler,14,2,71
+33,6096ee4ed5f41e6e17598ec9,1,beige,suit,Elliot's suit looks beige,looks,15,2,86
+33,6096ee4ed5f41e6e17598ec9,12,green,vest,I think Tom's vest is green,filler,16,2,92
+33,6096ee4ed5f41e6e17598ec9,4,shiny,dress,Kate's dress looks shiny,looks,17,2,95
+33,6096ee4ed5f41e6e17598ec9,2,purple,coat,Holly's coat is purple,bare,18,2,100
+33,6096ee4ed5f41e6e17598ec9,18,silky,tie,David's tie might be silky,filler,19,2,71
+33,6096ee4ed5f41e6e17598ec9,10,oily,purse,Natalie's purse looks oily,looks,20,2,60
+34,5a6032228e625900017657f4,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,19
+34,5a6032228e625900017657f4,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,50
+34,5a6032228e625900017657f4,6,loose,pants,Steve's pants are loose,bare,3,2,81
+34,5a6032228e625900017657f4,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,40
+34,5a6032228e625900017657f4,16,tight,belt,Raplh's belt might be tight,filler,5,2,19
+34,5a6032228e625900017657f4,15,long,gown,I think Jenny's gown is long,filler,6,2,48
+34,5a6032228e625900017657f4,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,75
+34,5a6032228e625900017657f4,9,clean,shoes,Michael's shoes are clean,bare,8,2,77
+34,5a6032228e625900017657f4,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,44
+34,5a6032228e625900017657f4,3,striped,shirt,Ashley's shirt is striped,bare,10,2,100
+34,5a6032228e625900017657f4,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,53
+34,5a6032228e625900017657f4,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,91
+34,5a6032228e625900017657f4,5,short,skirt,Zoe's skirt looks short,looks,13,2,31
+34,5a6032228e625900017657f4,20,damp,top,Samantha's top might be damp,filler,14,2,39
+34,5a6032228e625900017657f4,1,beige,suit,Elliot's suit looks beige,looks,15,2,62
+34,5a6032228e625900017657f4,12,green,vest,I think Tom's vest is green,filler,16,2,50
+34,5a6032228e625900017657f4,4,shiny,dress,Kate's dress looks shiny,looks,17,2,61
+34,5a6032228e625900017657f4,2,purple,coat,Holly's coat is purple,bare,18,2,100
+34,5a6032228e625900017657f4,18,silky,tie,David's tie might be silky,filler,19,2,53
+34,5a6032228e625900017657f4,10,oily,purse,Natalie's purse looks oily,looks,20,2,52
+35,6143c28b6d84339f28982fb5,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,34
+35,6143c28b6d84339f28982fb5,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,71
+35,6143c28b6d84339f28982fb5,6,loose,pants,Steve's pants are loose,bare,3,2,91
+35,6143c28b6d84339f28982fb5,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,85
+35,6143c28b6d84339f28982fb5,16,tight,belt,Raplh's belt might be tight,filler,5,2,82
+35,6143c28b6d84339f28982fb5,15,long,gown,I think Jenny's gown is long,filler,6,2,92
+35,6143c28b6d84339f28982fb5,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,88
+35,6143c28b6d84339f28982fb5,9,clean,shoes,Michael's shoes are clean,bare,8,2,94
+35,6143c28b6d84339f28982fb5,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,71
+35,6143c28b6d84339f28982fb5,3,striped,shirt,Ashley's shirt is striped,bare,10,2,100
+35,6143c28b6d84339f28982fb5,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,86
+35,6143c28b6d84339f28982fb5,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,94
+35,6143c28b6d84339f28982fb5,5,short,skirt,Zoe's skirt looks short,looks,13,2,100
+35,6143c28b6d84339f28982fb5,20,damp,top,Samantha's top might be damp,filler,14,2,45
+35,6143c28b6d84339f28982fb5,1,beige,suit,Elliot's suit looks beige,looks,15,2,87
+35,6143c28b6d84339f28982fb5,12,green,vest,I think Tom's vest is green,filler,16,2,90
+35,6143c28b6d84339f28982fb5,4,shiny,dress,Kate's dress looks shiny,looks,17,2,100
+35,6143c28b6d84339f28982fb5,2,purple,coat,Holly's coat is purple,bare,18,2,100
+35,6143c28b6d84339f28982fb5,18,silky,tie,David's tie might be silky,filler,19,2,72
+35,6143c28b6d84339f28982fb5,10,oily,purse,Natalie's purse looks oily,looks,20,2,31
+36,614f24578db9aab4bfb2809f,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,16
+36,614f24578db9aab4bfb2809f,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,84
+36,614f24578db9aab4bfb2809f,6,loose,pants,Steve's pants are loose,bare,3,2,98
+36,614f24578db9aab4bfb2809f,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,86
+36,614f24578db9aab4bfb2809f,16,tight,belt,Raplh's belt might be tight,filler,5,2,25
+36,614f24578db9aab4bfb2809f,15,long,gown,I think Jenny's gown is long,filler,6,2,84
+36,614f24578db9aab4bfb2809f,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,87
+36,614f24578db9aab4bfb2809f,9,clean,shoes,Michael's shoes are clean,bare,8,2,99
+36,614f24578db9aab4bfb2809f,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,40
+36,614f24578db9aab4bfb2809f,3,striped,shirt,Ashley's shirt is striped,bare,10,2,100
+36,614f24578db9aab4bfb2809f,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,71
+36,614f24578db9aab4bfb2809f,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,95
+36,614f24578db9aab4bfb2809f,5,short,skirt,Zoe's skirt looks short,looks,13,2,60
+36,614f24578db9aab4bfb2809f,20,damp,top,Samantha's top might be damp,filler,14,2,39
+36,614f24578db9aab4bfb2809f,1,beige,suit,Elliot's suit looks beige,looks,15,2,89
+36,614f24578db9aab4bfb2809f,12,green,vest,I think Tom's vest is green,filler,16,2,81
+36,614f24578db9aab4bfb2809f,4,shiny,dress,Kate's dress looks shiny,looks,17,2,80
+36,614f24578db9aab4bfb2809f,2,purple,coat,Holly's coat is purple,bare,18,2,100
+36,614f24578db9aab4bfb2809f,18,silky,tie,David's tie might be silky,filler,19,2,34
+36,614f24578db9aab4bfb2809f,10,oily,purse,Natalie's purse looks oily,looks,20,2,34
+37,5d93892be1e2a9001b5804ca,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,71
+37,5d93892be1e2a9001b5804ca,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,56
+37,5d93892be1e2a9001b5804ca,6,loose,pants,Steve's pants are loose,bare,3,2,87
+37,5d93892be1e2a9001b5804ca,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,70
+37,5d93892be1e2a9001b5804ca,16,tight,belt,Raplh's belt might be tight,filler,5,2,58
+37,5d93892be1e2a9001b5804ca,15,long,gown,I think Jenny's gown is long,filler,6,2,60
+37,5d93892be1e2a9001b5804ca,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,44
+37,5d93892be1e2a9001b5804ca,9,clean,shoes,Michael's shoes are clean,bare,8,2,92
+37,5d93892be1e2a9001b5804ca,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,66
+37,5d93892be1e2a9001b5804ca,3,striped,shirt,Ashley's shirt is striped,bare,10,2,95
+37,5d93892be1e2a9001b5804ca,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,70
+37,5d93892be1e2a9001b5804ca,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,97
+37,5d93892be1e2a9001b5804ca,5,short,skirt,Zoe's skirt looks short,looks,13,2,73
+37,5d93892be1e2a9001b5804ca,20,damp,top,Samantha's top might be damp,filler,14,2,64
+37,5d93892be1e2a9001b5804ca,1,beige,suit,Elliot's suit looks beige,looks,15,2,71
+37,5d93892be1e2a9001b5804ca,12,green,vest,I think Tom's vest is green,filler,16,2,72
+37,5d93892be1e2a9001b5804ca,4,shiny,dress,Kate's dress looks shiny,looks,17,2,81
+37,5d93892be1e2a9001b5804ca,2,purple,coat,Holly's coat is purple,bare,18,2,97
+37,5d93892be1e2a9001b5804ca,18,silky,tie,David's tie might be silky,filler,19,2,70
+37,5d93892be1e2a9001b5804ca,10,oily,purse,Natalie's purse looks oily,looks,20,2,65
+38,56e5b167b2093a000b4f1345,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,2
+38,56e5b167b2093a000b4f1345,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,1
+38,56e5b167b2093a000b4f1345,6,loose,pants,Steve's pants are loose,bare,3,2,70
+38,56e5b167b2093a000b4f1345,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,58
+38,56e5b167b2093a000b4f1345,16,tight,belt,Raplh's belt might be tight,filler,5,2,39
+38,56e5b167b2093a000b4f1345,15,long,gown,I think Jenny's gown is long,filler,6,2,75
+38,56e5b167b2093a000b4f1345,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,96
+38,56e5b167b2093a000b4f1345,9,clean,shoes,Michael's shoes are clean,bare,8,2,77
+38,56e5b167b2093a000b4f1345,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,40
+38,56e5b167b2093a000b4f1345,3,striped,shirt,Ashley's shirt is striped,bare,10,2,97
+38,56e5b167b2093a000b4f1345,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,62
+38,56e5b167b2093a000b4f1345,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,77
+38,56e5b167b2093a000b4f1345,5,short,skirt,Zoe's skirt looks short,looks,13,2,75
+38,56e5b167b2093a000b4f1345,20,damp,top,Samantha's top might be damp,filler,14,2,68
+38,56e5b167b2093a000b4f1345,1,beige,suit,Elliot's suit looks beige,looks,15,2,69
+38,56e5b167b2093a000b4f1345,12,green,vest,I think Tom's vest is green,filler,16,2,61
+38,56e5b167b2093a000b4f1345,4,shiny,dress,Kate's dress looks shiny,looks,17,2,69
+38,56e5b167b2093a000b4f1345,2,purple,coat,Holly's coat is purple,bare,18,2,92
+38,56e5b167b2093a000b4f1345,18,silky,tie,David's tie might be silky,filler,19,2,58
+38,56e5b167b2093a000b4f1345,10,oily,purse,Natalie's purse looks oily,looks,20,2,77
+39,5f8c68e4fc66863c9a0150d5,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,9
+39,5f8c68e4fc66863c9a0150d5,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,70
+39,5f8c68e4fc66863c9a0150d5,6,loose,pants,Steve's pants are loose,bare,3,2,75
+39,5f8c68e4fc66863c9a0150d5,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,60
+39,5f8c68e4fc66863c9a0150d5,16,tight,belt,Raplh's belt might be tight,filler,5,2,39
+39,5f8c68e4fc66863c9a0150d5,15,long,gown,I think Jenny's gown is long,filler,6,2,81
+39,5f8c68e4fc66863c9a0150d5,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,9
+39,5f8c68e4fc66863c9a0150d5,9,clean,shoes,Michael's shoes are clean,bare,8,2,71
+39,5f8c68e4fc66863c9a0150d5,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,19
+39,5f8c68e4fc66863c9a0150d5,3,striped,shirt,Ashley's shirt is striped,bare,10,2,86
+39,5f8c68e4fc66863c9a0150d5,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,61
+39,5f8c68e4fc66863c9a0150d5,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,90
+39,5f8c68e4fc66863c9a0150d5,5,short,skirt,Zoe's skirt looks short,looks,13,2,55
+39,5f8c68e4fc66863c9a0150d5,20,damp,top,Samantha's top might be damp,filler,14,2,5
+39,5f8c68e4fc66863c9a0150d5,1,beige,suit,Elliot's suit looks beige,looks,15,2,70
+39,5f8c68e4fc66863c9a0150d5,12,green,vest,I think Tom's vest is green,filler,16,2,60
+39,5f8c68e4fc66863c9a0150d5,4,shiny,dress,Kate's dress looks shiny,looks,17,2,44
+39,5f8c68e4fc66863c9a0150d5,2,purple,coat,Holly's coat is purple,bare,18,2,95
+39,5f8c68e4fc66863c9a0150d5,18,silky,tie,David's tie might be silky,filler,19,2,19
+39,5f8c68e4fc66863c9a0150d5,10,oily,purse,Natalie's purse looks oily,looks,20,2,39
+40,61032640181839ead293c28d,19,dirty,socks,I think Peter's socks are dirty,filler,1,2,30
+40,61032640181839ead293c28d,11,crimson,outfit,Mark's outfit might be crimson,filler,2,2,33
+40,61032640181839ead293c28d,6,loose,pants,Steve's pants are loose,bare,3,2,81
+40,61032640181839ead293c28d,14,faded,jeans,I think Frank's jeans are faded,filler,4,2,35
+40,61032640181839ead293c28d,16,tight,belt,Raplh's belt might be tight,filler,5,2,40
+40,61032640181839ead293c28d,15,long,gown,I think Jenny's gown is long,filler,6,2,36
+40,61032640181839ead293c28d,8,fuzzy,scarf,Gail's scarf looks fuzzy,looks,7,2,81
+40,61032640181839ead293c28d,9,clean,shoes,Michael's shoes are clean,bare,8,2,90
+40,61032640181839ead293c28d,13,checkered,cardigan,Lucy's cardigan might be checkered,filler,9,2,30
+40,61032640181839ead293c28d,3,striped,shirt,Ashley's shirt is striped,bare,10,2,94
+40,61032640181839ead293c28d,17,transparent,blouse,I think Sarah's blouse is transparent,filler,11,2,31
+40,61032640181839ead293c28d,7,bulky,jacket,Dylan's jacket is bulky,bare,12,2,93
+40,61032640181839ead293c28d,5,short,skirt,Zoe's skirt looks short,looks,13,2,86
+40,61032640181839ead293c28d,20,damp,top,Samantha's top might be damp,filler,14,2,44
+40,61032640181839ead293c28d,1,beige,suit,Elliot's suit looks beige,looks,15,2,66
+40,61032640181839ead293c28d,12,green,vest,I think Tom's vest is green,filler,16,2,40
+40,61032640181839ead293c28d,4,shiny,dress,Kate's dress looks shiny,looks,17,2,80
+40,61032640181839ead293c28d,2,purple,coat,Holly's coat is purple,bare,18,2,91
+40,61032640181839ead293c28d,18,silky,tie,David's tie might be silky,filler,19,2,35
+40,61032640181839ead293c28d,10,oily,purse,Natalie's purse looks oily,looks,20,2,66
