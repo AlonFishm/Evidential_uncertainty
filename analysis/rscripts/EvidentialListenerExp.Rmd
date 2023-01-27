@@ -1,0 +1,238 @@
+Libraries
+```{r libraries}
+library(lmerTest)
+library(ordinal)
+library(tidyverse)
+library(broom)
+
+theme_set(theme_bw())
+cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+Read properties out of Lynott & Connell 2009
+```{r}
+# this.dir <- dirname(rstudioapi::getSourceEditorContext()$path)
+# setwd(this.dir)
+source("helpers.R")
+
+AdjMod <- read_csv("../data/AdjMod.csv")
+
+#Filter out low familiarity and low frequency properties
+quantile(AdjMod$Familiarity)
+
+AdjMod <- AdjMod %>% filter(Familiarity == 1)
+
+quantile(AdjMod$BNCFrequency)
+
+AdjMod <- AdjMod %>% filter(BNCFrequency > 1)
+
+#Filter out gerunds
+AdjMod <- AdjMod %>% 
+  mutate(Property = if_else(
+    endsWith(Property,"ing"),"gerund",Property)) %>% 
+  filter(Property!="gerund")
+
+AdjMod %>% select(Property,VisualStrengthMean) %>% 
+  arrange(desc(VisualStrengthMean))
+
+quantile(AdjMod$VisualStrengthMean)
+
+```
+Data wrangling
+```{r}
+raw_res <- read_csv("../data/EvidentialConfidenceListener.csv")
+
+raw_res %>% count(ProlificID)
+
+results <- raw_res %>% select(Participant,Property,Type,Response)
+
+#Join results with modality norms
+AdjMod %>% select(Property,VisualStrengthMean,ModalityExclusivity) %>% 
+  right_join(results,by="Property") -> results
+
+results %>% filter(Type != "filler") -> results
+
+#Centralize and standardize measures
+results <- results %>% 
+  mutate(Type = factor(Type, levels=c("bare","looks")),
+         Property = factor(Property),
+         VisualStrength_c = VisualStrengthMean - mean(VisualStrengthMean),
+         Exclusivity_c = ModalityExclusivity - mean(ModalityExclusivity),
+         Response_c = Response - mean(Response)) %>% 
+  mutate(VisualStrength_z = VisualStrength_c / sd(VisualStrength_c),
+         Exclusivity_z = Exclusivity_c / sd(Exclusivity_c),
+         Response_z = Response_c / sd(Response_c)) %>% 
+  mutate(VisualStrength = VisualStrengthMean,
+         Exclusivity = ModalityExclusivity)
+
+#Dummy coding with bare as base level
+contrasts(results$Type)
+```
+
+Descriptive stats
+```{r}
+results %>% 
+  group_by(Property,Type,VisualStrengthMean) %>% 
+  summarize(M=mean(Response),SD=sd(Response)) %>%
+  mutate(M=round(M,2),SD=round(SD,2)) %>% 
+  ungroup()
+
+#Difference between means
+results %>% 
+  group_by(Property,Type,VisualStrengthMean) %>% 
+  summarize(M=mean(Response)) %>%
+  mutate(M=round(M,2)) %>% 
+  pivot_wider(names_from = Type, values_from = M) %>% 
+  mutate(MeanDiff = bare-looks) %>% 
+  arrange(desc(VisualStrengthMean)) -> res_means
+
+res_means %>% 
+  ggplot(aes(x=reorder(Property,VisualStrengthMean),y=MeanDiff)) + 
+  geom_point() +
+  geom_text(aes(label=Property),nudge_y=1.3)
+```
+
+Visualization
+```{r}
+#Histogram (looks only)
+results %>% 
+  filter(Type == "looks") %>%
+  ggplot(aes(x=Response)) +
+  geom_histogram(binwidth=1, fill="grey70") +
+  theme_minimal(base_size=18)
+
+#Scatterplot by modality strength
+results %>% 
+  ggplot(aes(y=Response,x=VisualStrength_z, color=Type)) +
+  geom_point(position=position_jitter(width=0.1),alpha=0.7) +
+  geom_smooth()
+
+#Boxplot by property
+results %>% 
+  ggplot(aes(y=Response,x=reorder(Property,VisualStrength), fill=Type)) +
+  geom_boxplot(position="dodge2") + 
+  stat_summary(fun=mean, position=position_dodge(width=0.75), geom="point", shape=18,
+               size=4) +
+  theme_minimal() + 
+  theme(axis.text.x = element_text(angle = 30))
+
+#Dotplot by property
+results %>%
+  ggplot(aes(y=Response,x=reorder(Property,VisualStrengthMean), fill=Type)) +
+  geom_dotplot(binaxis = "y", stackdir ="center", stackratio = 0.4, binwidth = 2,
+               position = position_dodge(width=0.5), alpha = 1, color="gray30", 
+               dotsize = 1)+
+  stat_summary(fun = mean, geom = "point", shape = 8, size = 1,
+               position = position_dodge(width=0.5))+
+#  stat_summary(fun.data = mean_cl_normal, geom = "errorbar", width = .6, 
+#              position = position_dodge(width=0.5)) + #95% confidence interval for mean
+  theme_minimal() + 
+  theme(axis.text.x = element_text(angle = 30))
+```
+
+Violin plot by property
+```{r}
+results %>% 
+  ggplot(aes(y=Response,x=reorder(Property,VisualStrengthMean),fill=Type,shape=Type)) +
+  geom_violin(scale="width", position=position_dodge(1),alpha=.6)+
+  stat_summary(fun = mean, geom = "point", size = 2,
+               position = position_dodge(1))+
+  stat_summary(fun.data = mean_cl_normal, geom = "errorbar", width = 0, 
+               position = position_dodge(1)) + #95% confidence interval for mean
+  scale_fill_manual(values=cbPalette,name="Utterance\ntype") +
+  scale_shape(name="Utterance\ntype") +
+  xlab("Property (ordered by increasing visual strength)") +
+  ylab("Mean certainty rating")
+# ggsave("../graphs/exp1-certainty.pdf",width=6,height=3)
+```
+```{r}
+agr = results %>% 
+  group_by(Property,VisualStrengthMean,Type) %>% 
+  summarize(Mean = mean(Response), CILow=ci.low(Response), CIHigh=ci.high(Response)) %>% 
+  ungroup() %>% 
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+  ggplot(agr,aes(y=Mean,x=VisualStrengthMean,color=Type,shape=Type)) +
+    geom_text(aes(label=Property))
+```
+
+Statistical analysis
+```{r}
+listener1 <- lmer(Response ~ Type * VisualStrength_z + (1|Participant) + (1|Property), data=results)
+summary(listener1)
+
+#Polynomials
+results <- results %>% 
+  mutate(VisualStrength_z_sq = VisualStrength_z^2)
+
+listener2 <- lmer(Response ~ Type * (VisualStrength_z + VisualStrength_z_sq) + 
+                    (1|Participant) + (1|Property), data=results)
+summary(listener2)
+
+```
+
+Split violin
+```{r}
+GeomSplitViolin <- ggproto("GeomSplitViolin", GeomViolin, 
+                           draw_group = function(self, data, ..., draw_quantiles = NULL) {
+  data <- transform(data, xminv = x - violinwidth * (x - xmin), xmaxv = x + violinwidth * (xmax - x))
+  grp <- data[1, "group"]
+  newdata <- dplyr::arrange(transform(data, x = if (grp %% 2 == 1) xminv else xmaxv), if (grp %% 2 == 1) y else -y)
+  newdata <- rbind(newdata[1, ], newdata, newdata[nrow(newdata), ], newdata[1, ])
+  newdata[c(1, nrow(newdata) - 1, nrow(newdata)), "x"] <- round(newdata[1, "x"])
+
+  if (length(draw_quantiles) > 0 & !scales::zero_range(range(data$y))) {
+    stopifnot(all(draw_quantiles >= 0), all(draw_quantiles <=
+      1))
+    quantiles <- ggplot2:::create_quantile_segment_frame(data, draw_quantiles)
+    aesthetics <- data[rep(1, nrow(quantiles)), setdiff(names(data), c("x", "y")), drop = FALSE]
+    aesthetics$alpha <- rep(1, nrow(quantiles))
+    both <- cbind(quantiles, aesthetics)
+    quantile_grob <- GeomPath$draw_panel(both, ...)
+    ggplot2:::ggname("geom_split_violin", grid::grobTree(GeomPolygon$draw_panel(newdata, ...), quantile_grob))
+  }
+  else {
+    ggplot2:::ggname("geom_split_violin", GeomPolygon$draw_panel(newdata, ...))
+  }
+})
+
+geom_split_violin <- function(mapping = NULL, data = NULL, stat = "ydensity", position = "identity", ..., 
+                              draw_quantiles = NULL, trim = TRUE, scale = "area", na.rm = FALSE, 
+                              show.legend = NA, inherit.aes = TRUE) {
+  layer(data = data, mapping = mapping, stat = stat, geom = GeomSplitViolin, 
+        position = position, show.legend = show.legend, inherit.aes = inherit.aes, 
+        params = list(trim = trim, scale = scale, draw_quantiles = draw_quantiles, na.rm = na.rm, ...))
+}
+
+results %>% 
+  ggplot(aes(y=Response,x=reorder(Property,VisualStrength), fill=Type)) +
+  geom_split_violin(scale="width", width=0.8) + 
+  stat_summary(fun=mean, position=position_dodge(width=0.5), geom="point", shape=18,
+               size=2) +
+  stat_summary(fun.data = mean_cl_normal, geom = "errorbar", width = .6, 
+               position = position_dodge(width=0.5)) + #95% confidence interval for mean
+  theme_minimal() + 
+  theme(axis.text.x = element_text(angle = 30))
+
+```
+
+Fillers
+```{r}
+raw_res %>% 
+  left_join(AdjMod,by="Property") -> fill_res
+
+fill_res <- fill_res %>% 
+  select(Participant, Property, Type, Stimulus, Response, VisualStrengthMean, ModalityExclusivity)
+
+fill_res %>% filter(Type == "filler") %>% 
+  mutate(Type = if_else(
+    startsWith(Stimulus,"I think"),"think","might")) %>% 
+  filter(is.na(VisualStrengthMean)==FALSE)-> fill_res
+
+fill_res %>%  
+  ggplot(aes(y=Response,x=reorder(Property,VisualStrengthMean),fill=Type)) +
+  theme_minimal() + 
+  geom_boxplot() + 
+  theme(axis.text.x = element_text(angle = 30)) +
+  stat_summary(fun=mean, position=position_dodge(width=0.75), geom="point", shape=18, size=4) +
+  ylab("Confidence")
+```
