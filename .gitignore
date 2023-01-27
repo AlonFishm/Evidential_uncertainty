@@ -1,5 +1,6 @@
 *~
 *.RData
+*.Rhistory
 */node_modules/
 *.bbl
 *.blg
