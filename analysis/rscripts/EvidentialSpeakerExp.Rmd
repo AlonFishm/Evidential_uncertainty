@@ -146,10 +146,30 @@ ggplot(agr,aes(x=perceptual_strength, y=evid_marking, color=perceptibility,linet
   geom_point(aes(shape=sense)) +
   geom_smooth(data=cleandata %>% filter(perceptibility == "bad"),method="lm") +
   geom_smooth(data=cleandata %>% filter(perceptibility == "good"),group=1) +
-  scale_color_manual(name="Perceptibility\nconditions",values=cbPalette) +
+  scale_color_manual(name="Perceptibility\nconditions",values=cbPalette[5:6]) +
+  scale_linetype(name="Perceptibility\nconditions") +
+  scale_shape(name="Sense") +
   ylab("Proportion of evidential device uses") +
   xlab("Perceptual strength")
-ggsave("../graphs/exp2-evid-uses.pdf",width=6,height=3)
+ggsave("../graphs/exp2-evid-uses.pdf",width=5,height=3)
+```
+smooth separately by sense -- not enough power
+```{r visualization}
+agr = cleandata %>% 
+  group_by(perceptibility,perceptual_strength,sense) %>%
+  summarize(evid_marking=mean(evid_marking))
+
+ggplot(agr,aes(x=perceptual_strength, y=evid_marking, color=perceptibility,linetype=perceptibility))+
+  geom_point(aes(shape=sense)) +
+  # geom_smooth(data=cleandata %>% filter(perceptibility == "bad"),method="lm") +
+  # geom_smooth(data=cleandata %>% filter(perceptibility == "good"),group=1) +
+  geom_smooth() +
+  scale_color_manual(name="Perceptibility\nconditions",values=cbPalette[5:6]) +
+  scale_linetype(name="Perceptibility\nconditions") +
+  scale_shape(name="Sense") +
+  ylab("Proportion of evidential device uses") +
+  xlab("Perceptual strength") +
+  facet_wrap(~sense)
 ```
 
 ```{r visualization}
@@ -202,4 +222,24 @@ speaker1 <- glmer(response_type ~ perc_str_z + perc_str_zsq + perceptibility + s
 summary(speaker1)
 
 ```
+Model with centered perceptual strength, centered perceptibility
+```{r}
+d_model = cleandata %>% 
+  mutate(cperceptibility = as.numeric(perceptibility) - mean(as.numeric(perceptibility)),
+         cperceptual_strength = perceptual_strength - mean(perceptual_strength)) 
 
+m <- glmer(response_type ~ cperceptual_strength * cperceptibility + sense + (1|participant),
+                  data = d_model, family = "binomial")
+summary(m)
+
+```
+Model with centered perceptual strength, centered perceptibility, and 2nd order perceptual strength polynomial term
+```{r}
+d_model = cleandata %>% 
+  mutate(cperceptibility = as.numeric(perceptibility) - mean(as.numeric(perceptibility)),
+         cperceptual_strength = perceptual_strength - mean(perceptual_strength)) 
+
+m.poly <- glmer(response_type ~ poly(cperceptual_strength,2,raw=T) * cperceptibility + (1|participant) + (1|property),
+                  data = d_model, family = "binomial")
+summary(m.poly)
+```
