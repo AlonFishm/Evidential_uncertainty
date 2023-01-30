@@ -95,3 +95,23 @@ LData %>%
   geom_point(aes(shape=type))
 
 ```
+
+Listener Model 1
+``` {r}
+read_csv("../data/EvidentialConfidenceListenerModel1.csv")-> LData1
+
+left_join(LData1,AdjMod,by="property") -> LData1
+
+LData1 %>% mutate(perceptual_strength = VisStr) %>% 
+  mutate(type = if_else(type == "looks" | 
+                              type == "sounds" | 
+                              type == "feels", "evidential", type)) %>% 
+  mutate(type=factor(type,levels=c("bare","evidential"))) -> LData1
+
+#visualization
+LData1 %>% 
+  ggplot(aes(x=perceptual_strength, y=certainty,
+             fill=type, color=type))+
+  scale_color_manual(values=c("#E69F00", "#56B4E9")) +
+  geom_point(aes(shape=type))
+```
