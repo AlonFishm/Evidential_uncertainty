@@ -1,0 +1,97 @@
+libraries
+```{r libraries}
+library(lmerTest)
+library(ordinal)
+library(tidyverse)
+library(broom)
+theme_set(theme_bw())
+cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+```
+
+Speaker Model
+```{r data wrangling}
+read_csv("../data/EvidentialConfidenceSpeakerModel.csv")-> SpData
+
+SpData %>% separate(utterance, into =c("utt_type","complement"),sep="_") %>% 
+  select(!complement) %>% 
+  mutate(utt_type = if_else(utt_type == "looks" | 
+                              utt_type == "sounds" | 
+                              utt_type == "feels", "evidential", utt_type)) %>% 
+  pivot_wider(names_from = utt_type, values_from = probability) -> SpData
+
+#Read Lynott & Connell
+read_csv("../data/AdjMod.csv") -> AdjMod
+AdjMod  %>%  
+  select(Property,VisualStrengthMean,AuditoryStrengthMean,HapticStrengthMean) %>% 
+  rename(property=Property,
+         VisStr=VisualStrengthMean,
+         AudStr=AuditoryStrengthMean,
+         HapStr=HapticStrengthMean)-> AdjMod
+
+left_join(SpData,AdjMod,by="property")->SpData
+
+#Match modality strength to evidence type
+SpData %>% 
+  mutate(perceptual_strength = case_when(
+    sense == "auditory" ~ AudStr,
+    sense == "haptic" ~ HapStr,
+    sense == "visual" ~ VisStr)) -> SpData
+
+SpData %>% select(!VisStr:HapStr) -> SpData
+
+SpData %>% mutate(perceptibility=factor(perceptibility, levels=c("good","bad")),
+                  sense=factor(sense)) -> SpData
+
+#Visualization
+SpData %>% 
+  ggplot(aes(x=perceptual_strength, y=evidential,
+             color=perceptibility,linetype=perceptibility))+
+  geom_point(aes(shape=sense)) +
+  scale_color_manual(name="Perceptibility\nconditions",values=cbPalette[5:6]) +
+  scale_linetype(name="Perceptibility\nconditions") +
+  scale_shape(name="Sense") +
+  ylab("Proportion of evidential device uses") +
+  xlab("Perceptual strength")
+```
+Listener Model
+``` {r}
+read_csv("../data/EvidentialConfidenceListenerModel.csv")-> LData
+
+LData %>% separate(Utterance, into=c("It","type", "property"), sep="_") %>% 
+  select(!It) -> LData
+
+LData %>% mutate(sense = case_when(
+  type == "looks" ~ "visual",
+  type == "feels" ~ "haptic",
+  type == "sounds" ~ "auditory",
+  type == "is" ~ "visual_haptic_auditory") ) %>% 
+  separate(sense, into=c("sense1","sense2","sense3"), sep="_") %>% 
+  pivot_longer(sense1:sense3, names_to="placeholder",values_to="sense") %>% 
+  select(!placeholder) %>% 
+  drop_na(sense) -> LData
+
+left_join(LData,AdjMod,by="property") -> LData
+
+#Match modality strength to evidence type
+LData %>% 
+  mutate(perceptual_strength = case_when(
+    sense == "auditory" ~ AudStr,
+    sense == "haptic" ~ HapStr,
+    sense == "visual" ~ VisStr)) -> LData
+
+LData %>% select(!VisStr:HapStr) -> LData
+
+LData %>% mutate(type = if_else(type == "looks" | 
+                              type == "sounds" | 
+                              type == "feels", "evidential", type)) %>% 
+  mutate(sense=factor(sense),
+         type=factor(type,levels=c("is","evidential"))) -> LData
+
+#visualization
+LData %>% 
+  ggplot(aes(x=perceptual_strength, y=Certainty,
+             fill=type, color=type))+
+  scale_color_manual(values=c("#E69F00", "#56B4E9")) +
+  geom_point(aes(shape=type))
+
+```
