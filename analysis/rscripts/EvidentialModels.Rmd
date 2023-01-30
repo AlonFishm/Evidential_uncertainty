@@ -10,7 +10,7 @@ cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00",
 
 Speaker Model
 ```{r data wrangling}
-read_csv("../data/EvidentialConfidenceSpeakerModel.csv")-> SpData
+read_csv("../data/EvidentialSpeakerModel.csv")-> SpData
 
 SpData %>% separate(utterance, into =c("utt_type","complement"),sep="_") %>% 
   select(!complement) %>% 
@@ -55,7 +55,7 @@ SpData %>%
 ```
 Listener Model
 ``` {r}
-read_csv("../data/EvidentialConfidenceListenerModel.csv")-> LData
+read_csv("../data/EvidentialListenerModel.csv")-> LData
 
 LData %>% separate(Utterance, into=c("It","type", "property"), sep="_") %>% 
   select(!It) -> LData
@@ -98,7 +98,7 @@ LData %>%
 
 Listener Model 1
 ``` {r}
-read_csv("../data/EvidentialConfidenceListenerModel1.csv")-> LData1
+read_csv("../data/EvidentialListenerModel1.csv")-> LData1
 
 left_join(LData1,AdjMod,by="property") -> LData1
 
