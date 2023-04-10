@@ -227,6 +227,11 @@ fill_res %>% filter(Type == "filler") %>%
   mutate(Type = if_else(
     startsWith(Stimulus,"I think"),"think","might")) %>% 
   filter(is.na(VisualStrengthMean)==FALSE)-> fill_res
+  
+fill_res %>% group_by(Type,Property,VisualStrengthMean) %>% 
+  summarize(M=mean(Response),SD=sd(Response)) %>%
+  mutate(M=round(M,2),SD=round(SD,2)) %>% 
+  ungroup()
 
 fill_res %>%  
   ggplot(aes(y=Response,x=reorder(Property,VisualStrengthMean),fill=Type)) +
@@ -235,4 +240,18 @@ fill_res %>%
   theme(axis.text.x = element_text(angle = 30)) +
   stat_summary(fun=mean, position=position_dodge(width=0.75), geom="point", shape=18, size=4) +
   ylab("Confidence")
+  
+fill_res %>% 
+  ggplot(aes(y=Response,x=reorder(Property,VisualStrengthMean),fill=Type,shape=Type)) +
+  geom_violin(scale="width", position=position_dodge(1),alpha=.6)+
+  stat_summary(fun = mean, geom = "point", size = 2,
+               position = position_dodge(1))+
+  stat_summary(fun.data = mean_cl_normal, geom = "errorbar", width = 0, 
+               position = position_dodge(1)) + #95% confidence interval for mean
+  scale_fill_manual(values=cbPalette,name="Utterance\ntype") +
+  scale_shape(name="Utterance\ntype") +
+  xlab("Property (ordered by increasing visual strength)") +
+  ylab("Mean certainty rating") +
+  theme_bw()
+
 ```
