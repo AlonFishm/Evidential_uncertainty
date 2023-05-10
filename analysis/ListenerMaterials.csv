@@ -1,0 +1,92 @@
+Instructions1,"In this experiment, you will read about a person attending a party. You will then read a series of statements made by this person. Please read the statements carefully and answer questions about them."
+Instructions2,"Your friend Taylor is at a party which you could not attend. The party is pretty fancy, but also crowded and noisy. Over the course of the party, Taylor is texting you about the people at the party and what they are wearing. Each of the following statements is a text you receive from Taylor."
+List1Stimulus1,"Text from Taylor: ""Lucy's cardigan might be checkered"""
+List1Question1,Is Taylor sure that Lucy's cardigan is checkered?
+List1Attention1,Why would Taylor think that Lucy's cardigan is checkered?
+List1Stimulus2,"Text from Taylor: ""I think Jenny's gown is long"""
+List1Question2,Is Taylor sure that Jenny's gown is long?
+List1Stimulus3,"Text from Taylor: ""Samantha's top might be damp"""
+List1Question3,Is Taylor sure that Samantha's top is damp?
+List1Stimulus4,"Text from Taylor: ""Natalie's purse is oily"""
+List1Question4,Is Taylor sure that Natalie's purse is oily?
+List1Stimulus5,"Text from Taylor: ""Dylan's jacket looks bulky"""
+List1Question5,Is Taylor sure that Dylan's jacket is bulky?
+List1Stimulus6,"Text from Taylor: ""Raplh's belt might be tight"""
+List1Question6,Is Taylor sure that Raplh's belt is tight?
+List1Attention6,Why would Taylor think that Ralph's belt is tight?
+List1Stimulus7,"Text from Taylor: ""I think Frank's jeans are faded"""
+List1Question7,Is Taylor sure that Frank's jeans are faded?
+List1Stimulus8,"Text from Taylor: ""Mark's outfit might be crimson"""
+List1Question8,Is Taylor sure that Mark's outfit is crimson?
+List1Stimulus9,"Text from Taylor: ""Gail's scarf is fuzzy"""
+List1Question9,Is Taylor sure that Gail's scarf is fuzzy?
+List1Attention9,Why would Taylor think that Gail's scarf is fuzzy?
+List1Stimulus10,"Text from Taylor: ""Michael's shoes look clean"""
+List1Question10,Is Taylor sure that Michael's shoes are clean?
+List1Stimulus11,"Text from Taylor: ""Elliot's suit is beige"""
+List1Question11,Is Taylor sure that Elliot's suit is beige?
+List1Stimulus12,"Text from Taylor: ""Steve's pants look loose"""
+List1Question12,Is Taylor sure that Steve's pants are loose?
+List1Stimulus13,"Text from Taylor: ""Zoe's skirt is short"""
+List1Question13,Is Taylor sure that Zoe's skirt is short?
+List1Stimulus14,"Text from Taylor: ""I think Sarah's blouse is transparent"""
+List1Question14,Is Taylor sure that Sarah's blouse is transparent?
+List1Attention14,Why would Taylor think that Sarah's shirt is transparent?
+List1Stimulus15,"Text from Taylor: ""Ashley's shirt looks striped"""
+List1Question15,Is Taylor sure that Ashley's shirt is striped?
+List1Stimulus16,"Text from Taylor: ""Kate's dress is shiny"""
+List1Question16,Is Taylor sure that Kate's dress is shiny?
+List1Stimulus17,"Text from Taylor: ""I think Peter's socks are dirty"""
+List1Question17,Is Taylor sure that Peter's socks are dirty?
+List1Stimulus18,"Text from Taylor: ""David's tie might be silky"""
+List1Question18,Is Taylor sure that David's tie is silky?
+List1Attention18,Why would Taylor think that David's tie is silky?
+List1Stimulus19,"Text from Taylor: ""I think Tom's vest is green"""
+List1Question19,Is Taylor sure that Tom's vest is green?
+List1Stimulus20,"Text from Taylor: ""Holly's coat looks purple"""
+List1Question20,Is Taylor sure that Holly's coat is purple?
+List2Stimulus1,"Text from Taylor: ""I think Peter's socks are dirty"""
+List2Question1,Is Taylor sure that Peter's socks are dirty?
+List2Attention1,Why would Taylor think that Peter's socks are dirty?
+List2Stimulus2,"Text from Taylor: ""Mark's outfit might be crimson"""
+List2Question2,Is Taylor sure that Mark's outfit is crimson?
+List2Stimulus3,"Text from Taylor: ""Steve's pants are loose"""
+List2Question3,Is Taylor sure that Steve's pants are loose?
+List2Stimulus4,"Text from Taylor: ""I think Frank's jeans are faded"""
+List2Question4,Is Taylor sure that Frank's jeans are faded?
+List2Stimulus5,"Text from Taylor: ""Ralph's belt might be tight"""
+List2Question5,Is Taylor sure that Raplh's belt is tight?
+List2Attention5,Why would Taylor think that Ralph's belt is tight?
+List2Stimulus6,"Text from Taylor: ""I think Jenny's gown is long"""
+List2Question6,Is Taylor sure that Jenny's gown is long?
+List2Stimulus7,"Text from Taylor: ""Gail's scarf looks fuzzy"""
+List2Question7,Is Taylor sure that Gail's scarf is fuzzy?
+List2Stimulus8,"Text from Taylor: ""Michael's shoes are clean"""
+List2Question8,Is Taylor sure that Michael's shoes are clean?
+List2Stimulus9,"Text from Taylor: ""Lucy's cardigan might be checkered"""
+List2Question9,Is Taylor sure that Lucy's cardigan is checkered?
+List2Attention9,Why would Taylor think that Lucy's cardigan is checkered?
+List2Stimulus10,"Text from Taylor: ""Ashley's shirt is striped"""
+List2Question10,Is Taylor sure that Ashley's shirt is striped?
+List2Stimulus11,"Text from Taylor: ""I think Sarah's blouse is transparent"""
+List2Question11,Is Taylor sure that Sarah's blouse is transparent?
+List2Stimulus12,"Text from Taylor: ""Dylan's jacket is bulky"""
+List2Question12,Is Taylor sure that Dylan's jacket is bulky?
+List2Stimulus13,"Text from Taylor: ""Zoe's skirt looks short"""
+List2Question13,Is Taylor sure that Zoe's skirt is short?
+List2Stimulus14,"Text from Taylor: ""Samantha's top might be damp"""
+List2Question14,Is Taylor sure that Samantha's top is damp?
+List2Attention14,Why would Taylor think that Samantha's top is damp?
+List2Stimulus15,"Text from Taylor: ""Elliot's suit looks beige"""
+List2Question15,Is Taylor sure that Elliot's suit is beige?
+List2Stimulus16,"Text from Taylor: ""I think Tom's vest is green"""
+List2Question16,Is Taylor sure that Tom's vest is green?
+List2Stimulus17,"Text from Taylor: ""Kate's dress looks shiny"""
+List2Question17,Is Taylor sure that Kate's dress is shiny?
+List2Stimulus18,"Text from Taylor: ""Holly's coat is purple"""
+List2Question18,Is Taylor sure that Holly's coat is purple?
+List2Attention18,Why would Taylor think that Holly's coat is purple?
+List2Stimulus19,"Text from Taylor: ""David's tie might be silky"""
+List2Question19,Is Taylor sure that David's tie is silky?
+List2Stimulus20,"Text from Taylor: ""Natalie's purse looks oily"""
+List2Question20,Is Taylor sure that Natalie's purse is oily?
